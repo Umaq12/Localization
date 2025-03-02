@@ -100,5 +100,5 @@
     <string name="customer.search.screen.placeholder">Search for</string>
     <string name="customer.timetable.widget.break">Break: %s</string>
     <string name="customer.timetable.widget.dayoff">Day off</string>
-    <string name="customer.timetable.widget.title">Working hours</string>
+    <string name="title">Working hours</string>
 </resources>
