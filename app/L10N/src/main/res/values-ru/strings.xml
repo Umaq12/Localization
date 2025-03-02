@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="common.contact.widget.action">Добавить контакт</string>
+    <string name="common_contact_widget_action">Добавить контакт</string>
     <string name="common.contact.widget.alertTitle">Подтвердите удаление контакта</string>
     <string name="common.contact.widget.contactsIsEmpty">Методы контакта не указаны</string>
     <string name="common.contact.widget.linkEdit">Редактирование</string>
