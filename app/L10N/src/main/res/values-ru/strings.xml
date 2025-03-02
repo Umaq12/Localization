@@ -100,5 +100,5 @@
     <string name="customer.search.screen.placeholder">Искать</string>
     <string name="customer.timetable.widget.break">Прервать: %s</string>
     <string name="customer.timetable.widget.dayoff">День выкл</string>
-    <string name="title">Время работы</string>
+    <string name="title2">Время работы</string>
 </resources>
