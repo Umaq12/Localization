@@ -1,2 +1,19 @@
+project_id: qwe111
+base_url: 'https://api.crowdin.com'
+base_path: .
+preserve_hierarchy: 1
 bundles:
   - 4
+files:
+  - source: '/path/to/source/*.xml'
+    translation: '/app/L10N/src/main/res/values-%android_code%/strings.xml'
+    type: xml
+    update_option: update_without_changes
+  - source: '/path/to/source/*.xml'
+    translation: '/app/L10N/src/main/res/values/strings.xml'
+    type: xml
+    update_option: update_without_changes
+    languages_mapping:
+      android_code:
+        en: ''
+
