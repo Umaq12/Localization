@@ -5,7 +5,7 @@ preserve_hierarchy: 1
 bundles:
   - 4
 files:
-  - source: '/path/to/source/*.xml'
+  - source: '*.xml'
     translation: '/app/L10N/src/main/res/values-%android_code%/strings.xml'
     type: xml
     update_option: update_without_changes
