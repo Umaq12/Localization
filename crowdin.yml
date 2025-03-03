@@ -6,14 +6,16 @@ bundles:
   - 4
 files:
   - source: '*.xml'
-    translation: '/app/L10N/src/main/res/values-%android_code%/strings.xml'
+    translation: '/app/L10N/src/main/res/values-en/strings.xml'
     type: xml
     update_option: update_without_changes
-  - source: '/path/to/source/*.xml'
+  - source: '*.xml'
     translation: '/app/L10N/src/main/res/values/strings.xml'
     type: xml
     update_option: update_without_changes
-    languages_mapping:
-      android_code:
-        en: ''
+      - source: '*.xml'
+    translation: '/app/L10N/src/main/res/values-ru/strings.xml'
+    type: xml
+    update_option: update_without_changes
+    
 
