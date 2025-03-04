@@ -9,10 +9,7 @@ files:
     translation: /app/L10N/src/main/res/values-%android_code%/strings.xml
     type: xml
     update_option: update_without_changes
-  - source: /path/to/source/*.xml
-    translation: /app/L10N/src/main/res/values/strings.xml
+  - source: app/L10N/src/main/res
+    translation: /app/L10N/src/main/res/values-%two_letters_code%/strings.xml
     type: xml
     update_option: update_without_changes
-    languages_mapping:
-      android_code:
-        en: ''
