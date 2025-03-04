@@ -1,404 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="common_contact_widget_action">
-    <item>Добавить контакт</item>
-    <item>Добавить новый контакт</item>
-  </string-array>
-  <string-array name="common.contact.widget.alertTitle">
-    <item>Подтвердите удаление контакта</item>
-    <item>Confirm deleting the contact</item>
-  </string-array>
-  <string-array name="common.contact.widget.contactsIsEmpty">
-    <item>Методы контакта не указаны</item>
-    <item>Contact methods not specified</item>
-  </string-array>
-  <string-array name="common.contact.widget.linkEdit">
-    <item>Редактирование</item>
-    <item>Edit</item>
-  </string-array>
-  <string-array name="common.contact.widget.linkSave">
-    <item>Сохранить</item>
-    <item>Save</item>
-  </string-array>
-  <string name="common.contact.widget.title">Контакты</string>
-  <string-array name="common.notification.screen.book">
-    <item>Сделать прием</item>
-    <item>Make appointment</item>
-  </string-array>
-  <string-array name="common.notification.screen.error_placeholder">
-    <item>Вы еще не получили никаких уведомлений</item>
-    <item>You haven\'t received any notifications yet</item>
-  </string-array>
-  <string-array name="common.notification.screen.read_all">
-    <item>Читать все</item>
-    <item>Read all</item>
-  </string-array>
-  <string-array name="common.notification.screen.title">
-    <item>Уведомления</item>
-    <item>Notifications</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.alias">
-    <item>Если вы хотите, чтобы этот сервис появился в вашем профиле под своим именем, вы можете предложить свой собственный персонализированный заголовок для него</item>
-    <item>If you want this service to appear in your profile under a custom name, you can suggest your own personalized title for it</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.click_create">
-    <item>Для сохранения нажмите Создать</item>
-    <item>To save, click Create</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.create_button">
-    <item>Создать</item>
-    <item>Create</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.enter_procedure_description">
-    <item>Пожалуйста, опишите детали процедуры. Пример: «Принести полотенце, приезжайте за 10-15 минут раньше, удаляйте ювелирные изделия, информируйте о противопоказаниях»</item>
-    <item>Please describe the details of the procedure. Example: “Bring a towel, arrive 10-15 minutes earlier, remove jewelry, inform about contraindications”</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.missingDuration">
-    <item>Возникла проблема с продолжительностью процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: отсутствует</item>
-    <item>There was an issue with the procedure duration. Please try again. If the problem persists, contact support and mention error code: missingDuration</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.missingMaster">
-    <item>Возникла проблема с назначением мастера процедуры. Пожалуйста, попробуйте еще раз. Если проблема повторится, обратитесь в службу поддержки и укажите код ошибки: missingMaster</item>
-    <item>There was an issue with assigning a master to the procedure. Please try again. If the problem persists, contact support and mention error code: missingMaster</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.missingPrice">
-    <item>Возникла проблема с ценой процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingPrice</item>
-    <item>There was an issue with the procedure price. Please try again. If the problem persists, contact support and mention error code: missingPrice</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.missingServiceId">
-    <item>Возникла проблема с идентификатором сервиса. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingServiceId</item>
-    <item>There was an issue with the service ID for the procedure. Please try again. If the problem persists, contact support and mention error code: missingServiceId</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.placeholder">
-    <item>Введите название процедуры</item>
-    <item>Enter procedure name</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.procedure_cost">
-    <item>Пожалуйста, укажите стоимость процедуры</item>
-    <item>Please indicate the cost of the procedure</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.procedure_duration">
-    <item>Укажите продолжительность процедуры</item>
-    <item>Specify the duration of the procedure</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.select_category">
-    <item>Выберите категорию</item>
-    <item>Select a category</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.select_procedure">
-    <item>Введите название процедуры или выберите из списка</item>
-    <item>Enter the name of the procedure or select from the list provided</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.select_procedure_info">
-    <item>Выбор существующей опции облегчит вам поиск других</item>
-    <item>Choosing an existing option will make it easier for others to find you in search</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.summaryPlaceholder">
-    <item>Summary</item>
-    <item>Summary</item>
-  </string-array>
-  <string-array name="common.procedure.creatable.title">
-    <item>Процедура</item>
-    <item>Procedure</item>
-  </string-array>
-  <string-array name="common.procedure.screen.alert_title">
-    <item>Вы уверены, что хотите удалить</item>
-    <item>Are you sure you want to delete</item>
-  </string-array>
-  <string-array name="common.procedure.screen.all_action">
-    <item>Добавить процедуру</item>
-    <item>Add procedure</item>
-  </string-array>
-  <string-array name="common.procedure.screen.not_found">
-    <item>Не найдено</item>
-    <item>Not found</item>
-  </string-array>
-  <string-array name="common.procedure.screen.title">
-    <item>Все процедуры</item>
-    <item>All Procedures</item>
-  </string-array>
-  <string-array name="common.procedure.update_creatable.alias_step_placeholder">
-    <item>Псевдоним новой процедуры</item>
-    <item>New procedure alias</item>
-  </string-array>
-  <string-array name="common.procedure.update_creatable.enter_new_alias">
-    <item>Введите новый псевдоним процедуры</item>
-    <item>Enter a new procedure alias</item>
-  </string-array>
-  <string-array name="common.procedure.update_creatable.title">
-    <item>Процедура обновления</item>
-    <item>Update procedure</item>
-  </string-array>
-  <string-array name="common.procedure.widget.action">
-    <item>Добавить процедуру</item>
-    <item>Add procedure</item>
-  </string-array>
-  <string-array name="common.procedure.widget.link">
-    <item>Все</item>
-    <item>All</item>
-  </string-array>
-  <string-array name="common.procedure.widget.title">
-    <item>Процедуры</item>
-    <item>Procedures</item>
-  </string-array>
-  <string-array name="common.profile.app_icon_widget.title">
-    <item>Выберите значок приложения</item>
-    <item>Select App Icon</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.delete_hint">
-    <item>Это действие нельзя отменить</item>
-    <item>This action cannot be undone</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.delete_title">
-    <item>Удалить пользователя</item>
-    <item>Delete User</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.logout">
-    <item>Выйти</item>
-    <item>Logout</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.logout_hint">
-    <item>Выйти из аккаунта</item>
-    <item>Sign out of your account</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.logout_message_alert">
-    <item>Вы уверены, что хотите выйти?</item>
-    <item>Are you sure you want to log out?</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.nickname">
-    <item>Ник</item>
-    <item>Nickname</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.subscription">
-    <item>Подписка</item>
-    <item>Subscription</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.title">
-    <item>Опасная зона</item>
-    <item>Danger Zone</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.user_delete_message_alert">
-    <item>Чтобы подтвердить, введите свой псевдоним в поле ниже</item>
-    <item>To confirm, type your nickname in the box below</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.user_delete_title_alert">
-    <item>Это действие нельзя отменить. Вы уверены, что хотите удалить?</item>
-    <item>The action cannot be undone. Are you sure you want to delete?</item>
-  </string-array>
-  <string-array name="common.profile.danger_zone_widget.warning">
-    <item>Предупреждение</item>
-    <item>Warning</item>
-  </string-array>
-  <string-array name="common.profile.i_am_widget.customer">
-    <item>Покупатель</item>
-    <item>Customer</item>
-  </string-array>
-  <string-array name="common.profile.i_am_widget.customer_register">
-    <item>Зарегистрируйтесь, как клиент</item>
-    <item>Register like customer</item>
-  </string-array>
-  <string-array name="common.profile.i_am_widget.professional">
-    <item>Профессиональный</item>
-    <item>Professional</item>
-  </string-array>
-  <string-array name="common.profile.i_am_widget.professional_register">
-    <item>Зарегистрируйтесь, как специалист</item>
-    <item>Register like professional</item>
-  </string-array>
-  <string-array name="common.profile.i_am_widget.title">
-    <item>Выбрать режим</item>
-    <item>Select mode</item>
-  </string-array>
-  <string-array name="common.profile.screen.title">
-    <item>Профиль</item>
-    <item>Profile</item>
-  </string-array>
-  <string-array name="common.profile.support_widget.action">
-    <item>Чат Поддержки</item>
-    <item>Support Chat</item>
-  </string-array>
-  <string-array name="common.profile.support_widget.message">
-    <item>Мы здесь, чтобы помочь! Если у вас есть вопросы или вопросы, наша служба поддержки всегда готова помочь вам</item>
-    <item>We’re here to help! If you have any questions or issues, our support team is always ready to assist you</item>
-  </string-array>
-  <string-array name="common.profile.support_widget.title">
-    <item>У вас есть вопросы? Мы здесь, чтобы помочь!</item>
-    <item>Got questions? We’re here to help!</item>
-  </string-array>
-  <string-array name="common.profile.support_widget.unknown">
-    <item>Неизвестен</item>
-    <item>Unknown</item>
-  </string-array>
-  <string-array name="common.profile.support_widget.userMessage">
-    <item>Здравствуйте, мне нужна помощь! Мой ID: %s</item>
-    <item>Hello, I need help! My ID: %s</item>
-  </string-array>
-  <string-array name="iAm.widget.customer">
-    <item>Покупатель</item>
-    <item>Customer</item>
-  </string-array>
-  <string-array name="iAm.widget.customer_register">
-    <item>Зарегистрируйтесь, как клиент</item>
-    <item>Register like customer</item>
-  </string-array>
-  <string-array name="iAm.widget.professional">
-    <item>Профессиональный</item>
-    <item>Professional</item>
-  </string-array>
-  <string-array name="iAm.widget.professional_register">
-    <item>Зарегистрируйтесь, как специалист</item>
-    <item>Register like professional</item>
-  </string-array>
-  <string-array name="iAm.widget.title">
-    <item>Выбрать режим</item>
-    <item>Select mode</item>
-  </string-array>
-  <string-array name="Support.widget.action">
-    <item>Чат Поддержки</item>
-    <item>Support Chat</item>
-  </string-array>
-  <string-array name="Support.widget.message">
-    <item>Мы здесь, чтобы помочь! Если у вас есть вопросы или вопросы, наша служба поддержки всегда готова помочь вам</item>
-    <item>We’re here to help! If you have any questions or issues, our support team is always ready to assist you</item>
-  </string-array>
-  <string-array name="Support.widget.title">
-    <item>У вас есть вопросы? Мы здесь, чтобы помочь!</item>
-    <item>Got questions? We’re here to help!</item>
-  </string-array>
-  <string-array name="Support.widget.unknown">
-    <item>Неизвестен</item>
-    <item>Unknown</item>
-  </string-array>
-  <string-array name="Support.widget.userMessage">
-    <item>Здравствуйте, мне нужна помощь! Мой ID: %s</item>
-    <item>Hello, I need help! My ID: %s</item>
-  </string-array>
-  <string-array name="customer.appointment.appointment.missing_master">
-    <item>При выборе мастера возникла проблема. Пожалуйста, попробуйте еще раз. Если проблема повторится, обратитесь в службу поддержки и укажите код ошибки: missingMaster</item>
-    <item>There was an issue with selecting a master. Please try again. If the problem persists, contact support and mention error code: missingMaster</item>
-  </string-array>
-  <string-array name="customer.appointment.creatable.click_complete">
-    <item>Для сохранения нажмите \"Завершено\"</item>
-    <item>To save, click Complete</item>
-  </string-array>
-  <string-array name="customer.appointment.creatable.complete">
-    <item>Завершить бронирование</item>
-    <item>Complete the booking</item>
-  </string-array>
-  <string-array name="customer.appointment.creatable.congratulations">
-    <item>Поздравляем, вы успешно создали салон!</item>
-    <item>Congratulations, you have successfully created a salon!</item>
-  </string-array>
-  <string-array name="customer.appointment.creatable.title">
-    <item>Назначение</item>
-    <item>Appointment</item>
-  </string-array>
-  <string-array name="customer.appointment.history_screen.empty_description">
-    <item>Нет записей за этот день</item>
-    <item>No entries for this day</item>
-  </string-array>
-  <string-array name="customer.appointment.history_screen.title">
-    <item>Назначения</item>
-    <item>Appointments</item>
-  </string-array>
-  <string-array name="customer.appointment.missing_date_interval">
-    <item>Возникла проблема с выбором даты и времени. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingDateInterval</item>
-    <item>There was an issue with selecting a date and time. Please try again. If the problem persists, contact support and mention error code: missingDateInterval</item>
-  </string-array>
-  <string-array name="customer.appointment.missing_procedures">
-    <item>Возникла проблема при выборе процедур. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingProcedures</item>
-    <item>There was an issue with selecting procedures. Please try again. If the problem persists, contact support and mention error code: missingProcedures</item>
-  </string-array>
-  <string-array name="customer.appointment.widget.today">
-    <item>Сегодня</item>
-    <item>Today</item>
-  </string-array>
-  <string-array name="customer.main.customer.screen.footer_subtitle">
-    <item>Вид</item>
-    <item>View</item>
-  </string-array>
-  <string-array name="customer.main.customer.screen.footer_title">
-    <item>История</item>
-    <item>History</item>
-  </string-array>
-  <string-array name="customer.main.customer.screen.map_button">
-    <item>Карта</item>
-    <item>Map</item>
-  </string-array>
-  <string-array name="customer.main.customer.screen.no_salons">
-    <item>Нет магазинов поблизости</item>
-    <item>There are no salons nearby</item>
-  </string-array>
-  <string-array name="customer.main.public.screen.login">
-    <item>Логин</item>
-    <item>Login</item>
-  </string-array>
-  <string-array name="customer.main.public.screen.map_button">
-    <item>Карта</item>
-    <item>Map</item>
-  </string-array>
-  <string-array name="customer.main.public.screen.not_found">
-    <item>Не найдено</item>
-    <item>Not found</item>
-  </string-array>
-  <string-array name="customer.map.screen.search_button">
-    <item>Поиск в этом регионе</item>
-    <item>Search in this region</item>
-  </string-array>
-  <string-array name="customer.map.screen.search_button_warning">
-    <item>Необходимо увеличить масштаб для поиска</item>
-    <item>Need to zoom in to search</item>
-  </string-array>
-  <string-array name="customer.master.screen.action">
-    <item>Сделать прием</item>
-    <item>Make appointment</item>
-  </string-array>
-  <string-array name="customer.master.screen.all_title">
-    <item>Все мастера</item>
-    <item>All Masters</item>
-  </string-array>
-  <string-array name="customer.master.screen.invite_link">
-    <item>Пригласить ссылку</item>
-    <item>Invitate link</item>
-  </string-array>
-  <string-array name="customer.master.screen.not_found">
-    <item>Не найдено</item>
-    <item>Not found</item>
-  </string-array>
-  <string-array name="customer.master.widget.link">
-    <item>Все</item>
-    <item>All</item>
-  </string-array>
-  <string-array name="customer.master.widget.title">
-    <item>Мастера</item>
-    <item>Masters</item>
-  </string-array>
-  <string-array name="customer.salon.screen.action">
-    <item>Сделать прием</item>
-    <item>Make appointment</item>
-  </string-array>
-  <string-array name="salon.screen.action">
-    <item>Сделать прием</item>
-    <item>Make appointment</item>
-  </string-array>
-  <string-array name="customer.search.screen.not_found">
-    <item>Не найдено</item>
-    <item>Not found</item>
-  </string-array>
-  <string-array name="customer.search.screen.placeholder">
-    <item>Искать</item>
-    <item>Search for</item>
-  </string-array>
-  <string-array name="customer.timetable.widget.break">
-    <item>Прервать: %s</item>
-    <item>Break: %s</item>
-  </string-array>
-  <string-array name="customer.timetable.widget.dayoff">
-    <item>День выкл</item>
-    <item>Day off</item>
-  </string-array>
-  <string-array name="title2">
-    <item>Время работы</item>
-    <item>Working hours</item>
-  </string-array>
+  <string name="common_contact_widget_action">Добавить новый контакт</string>
+  <string name="common.contact.widget.alertTitle">Confirm deleting the contact</string>
+  <string name="common.contact.widget.contactsIsEmpty">Contact methods not specified</string>
+  <string name="common.contact.widget.linkEdit">Edit</string>
+  <string name="common.contact.widget.linkSave">Save</string>
+  <string name="common.notification.screen.book">Make appointment</string>
+  <string name="common.notification.screen.error_placeholder">You haven\'t received any notifications yet</string>
+  <string name="common.notification.screen.read_all">Read all</string>
+  <string name="common.notification.screen.title">Notifications</string>
+  <string name="common.procedure.creatable.alias">If you want this service to appear in your profile under a custom name, you can suggest your own personalized title for it</string>
+  <string name="common.procedure.creatable.click_create">To save, click Create</string>
+  <string name="common.procedure.creatable.create_button">Create</string>
+  <string name="common.procedure.creatable.enter_procedure_description">Please describe the details of the procedure. Example: “Bring a towel, arrive 10-15 minutes earlier, remove jewelry, inform about contraindications”</string>
+  <string name="common.procedure.creatable.missingDuration">There was an issue with the procedure duration. Please try again. If the problem persists, contact support and mention error code: missingDuration</string>
+  <string name="common.procedure.creatable.missingMaster">There was an issue with assigning a master to the procedure. Please try again. If the problem persists, contact support and mention error code: missingMaster</string>
+  <string name="common.procedure.creatable.missingPrice">There was an issue with the procedure price. Please try again. If the problem persists, contact support and mention error code: missingPrice</string>
+  <string name="common.procedure.creatable.missingServiceId">There was an issue with the service ID for the procedure. Please try again. If the problem persists, contact support and mention error code: missingServiceId</string>
+  <string name="common.procedure.creatable.placeholder">Enter procedure name</string>
+  <string name="common.procedure.creatable.procedure_cost">Please indicate the cost of the procedure</string>
+  <string name="common.procedure.creatable.procedure_duration">Specify the duration of the procedure</string>
+  <string name="common.procedure.creatable.select_category">Select a category</string>
+  <string name="common.procedure.creatable.select_procedure">Enter the name of the procedure or select from the list provided</string>
+  <string name="common.procedure.creatable.select_procedure_info">Choosing an existing option will make it easier for others to find you in search</string>
+  <string name="common.procedure.creatable.summaryPlaceholder">Summary</string>
+  <string name="common.procedure.creatable.title">Procedure</string>
+  <string name="common.procedure.screen.alert_title">Are you sure you want to delete</string>
+  <string name="common.procedure.screen.all_action">Add procedure</string>
+  <string name="common.procedure.screen.not_found">Not found</string>
+  <string name="common.procedure.screen.title">All Procedures</string>
+  <string name="common.procedure.update_creatable.alias_step_placeholder">New procedure alias</string>
+  <string name="common.procedure.update_creatable.enter_new_alias">Enter a new procedure alias</string>
+  <string name="common.procedure.update_creatable.title">Update procedure</string>
+  <string name="common.procedure.widget.action">Add procedure</string>
+  <string name="common.procedure.widget.link">All</string>
+  <string name="common.procedure.widget.title">Procedures</string>
+  <string name="common.profile.app_icon_widget.title">Select App Icon</string>
+  <string name="common.profile.danger_zone_widget.delete_hint">This action cannot be undone</string>
+  <string name="common.profile.danger_zone_widget.delete_title">Delete User</string>
+  <string name="common.profile.danger_zone_widget.logout">Logout</string>
+  <string name="common.profile.danger_zone_widget.logout_hint">Sign out of your account</string>
+  <string name="common.profile.danger_zone_widget.logout_message_alert">Are you sure you want to log out?</string>
+  <string name="common.profile.danger_zone_widget.nickname">Nickname</string>
+  <string name="common.profile.danger_zone_widget.subscription">Subscription</string>
+  <string name="common.profile.danger_zone_widget.title">Danger Zone</string>
+  <string name="common.profile.danger_zone_widget.user_delete_message_alert">To confirm, type your nickname in the box below</string>
+  <string name="common.profile.danger_zone_widget.user_delete_title_alert">The action cannot be undone. Are you sure you want to delete?</string>
+  <string name="common.profile.danger_zone_widget.warning">Warning</string>
+  <string name="common.profile.i_am_widget.customer">Customer</string>
+  <string name="common.profile.i_am_widget.customer_register">Register like customer</string>
+  <string name="common.profile.i_am_widget.professional">Professional</string>
+  <string name="common.profile.i_am_widget.professional_register">Register like professional</string>
+  <string name="common.profile.i_am_widget.title">Select mode</string>
+  <string name="common.profile.screen.title">Profile</string>
+  <string name="common.profile.support_widget.action">Support Chat</string>
+  <string name="common.profile.support_widget.message">We’re here to help! If you have any questions or issues, our support team is always ready to assist you</string>
+  <string name="common.profile.support_widget.title">Got questions? We’re here to help!</string>
+  <string name="common.profile.support_widget.unknown">Unknown</string>
+  <string name="common.profile.support_widget.userMessage">Hello, I need help! My ID: %s</string>
+  <string name="iAm.widget.customer">Customer</string>
+  <string name="iAm.widget.customer_register">Register like customer</string>
+  <string name="iAm.widget.professional">Professional</string>
+  <string name="iAm.widget.professional_register">Register like professional</string>
+  <string name="iAm.widget.title">Select mode</string>
+  <string name="Support.widget.action">Support Chat</string>
+  <string name="Support.widget.message">We’re here to help! If you have any questions or issues, our support team is always ready to assist you</string>
+  <string name="Support.widget.title">Got questions? We’re here to help!</string>
+  <string name="Support.widget.unknown">Unknown</string>
+  <string name="Support.widget.userMessage">Hello, I need help! My ID: %s</string>
+  <string name="customer.appointment.appointment.missing_master">There was an issue with selecting a master. Please try again. If the problem persists, contact support and mention error code: missingMaster</string>
+  <string name="customer.appointment.creatable.click_complete">To save, click Complete</string>
+  <string name="customer.appointment.creatable.complete">Complete the booking</string>
+  <string name="customer.appointment.creatable.congratulations">Congratulations, you have successfully created a salon!</string>
+  <string name="customer.appointment.creatable.title">Appointment</string>
+  <string name="customer.appointment.history_screen.empty_description">No entries for this day</string>
+  <string name="customer.appointment.history_screen.title">Appointments</string>
+  <string name="customer.appointment.missing_date_interval">There was an issue with selecting a date and time. Please try again. If the problem persists, contact support and mention error code: missingDateInterval</string>
+  <string name="customer.appointment.missing_procedures">There was an issue with selecting procedures. Please try again. If the problem persists, contact support and mention error code: missingProcedures</string>
+  <string name="customer.appointment.widget.today">Today</string>
+  <string name="customer.main.customer.screen.footer_subtitle">View</string>
+  <string name="customer.main.customer.screen.footer_title">History</string>
+  <string name="customer.main.customer.screen.map_button">Map</string>
+  <string name="customer.main.customer.screen.no_salons">There are no salons nearby</string>
+  <string name="customer.main.public.screen.login">Login</string>
+  <string name="customer.main.public.screen.map_button">Map</string>
+  <string name="customer.main.public.screen.not_found">Not found</string>
+  <string name="customer.map.screen.search_button">Search in this region</string>
+  <string name="customer.map.screen.search_button_warning">Need to zoom in to search</string>
+  <string name="customer.master.screen.action">Make appointment</string>
+  <string name="customer.master.screen.all_title">All Masters</string>
+  <string name="customer.master.screen.invite_link">Invitate link</string>
+  <string name="customer.master.screen.not_found">Not found</string>
+  <string name="customer.master.widget.link">All</string>
+  <string name="customer.master.widget.title">Masters</string>
+  <string name="customer.salon.screen.action">Make appointment</string>
+  <string name="salon.screen.action">Make appointment</string>
+  <string name="customer.search.screen.not_found">Not found</string>
+  <string name="customer.search.screen.placeholder">Search for</string>
+  <string name="customer.timetable.widget.break">Break: %s</string>
+  <string name="customer.timetable.widget.dayoff">Day off</string>
+  <string name="title2">Working hours</string>
 </resources>
