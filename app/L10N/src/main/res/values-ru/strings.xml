@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="common_contact_widget_action">Добавить контакт</string>
-  <string name="common.contact.widget.alertTitle">Подтвердите удаление контакта</string>
+  <string name="common_contact_widget_action"></string>
+  <string name="common.contact.widget.alertTitle"></string>
   <string name="common.contact.widget.contactsIsEmpty">Методы контакта не указаны</string>
   <string name="common.contact.widget.linkEdit">Редактирование</string>
   <string name="common.contact.widget.linkSave">Сохранить</string>
@@ -101,4 +101,5 @@
   <string name="customer.timetable.widget.break">Прервать: %s</string>
   <string name="customer.timetable.widget.dayoff">День выкл</string>
   <string name="title2">Время работы</string>
+  <string name="Enter" maxLength="5">Войти</string>
 </resources>
