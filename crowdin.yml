@@ -5,11 +5,15 @@ preserve_hierarchy: 1
 bundles:
   - 6
 files:
-  - source: '*.xml'
-    translation: /app/L10N/src/main/res/values-%android_code%/strings.xml
+  - source: 'strings.xml'
+    translation: /app/L10N/src/main/res/values-en/strings.xml
     type: xml
     update_option: update_without_changes
-  - source: app/L10N/src/main/res
-    translation: /app/L10N/src/main/res/values-%two_letters_code%/strings.xml
+  - source: strings(1).xml
+    translation: /app/L10N/src/main/res/values-ru/strings.xml
+    type: xml
+    update_option: update_without_changes
+  - source: 'strings.xml'
+    translation: /app/L10N/src/main/res/values/strings.xml
     type: xml
     update_option: update_without_changes
