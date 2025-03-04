@@ -3,7 +3,7 @@ base_url: 'https://api.crowdin.com'
 base_path: .
 preserve_hierarchy: 1
 bundles:
-  - 4
+  - 6
 files:
   - source: '*.xml'
     translation: /app/L10N/src/main/res/values-%android_code%/strings.xml
