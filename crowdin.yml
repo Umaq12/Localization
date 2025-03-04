@@ -5,7 +5,7 @@ preserve_hierarchy: 1
 bundles:
   - 6
 files:
-  - source: 'strings.xml'
+  - source: strings.xml
     translation: /app/L10N/src/main/res/values-en/strings.xml
     type: xml
     update_option: update_without_changes
@@ -13,7 +13,7 @@ files:
     translation: /app/L10N/src/main/res/values-ru/strings.xml
     type: xml
     update_option: update_without_changes
-  - source: 'strings.xml'
+  - source: strings.xml
     translation: /app/L10N/src/main/res/values/strings.xml
     type: xml
     update_option: update_without_changes
