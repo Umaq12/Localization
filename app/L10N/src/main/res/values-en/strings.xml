@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-  <!-- Address Editing -->
-  <string name="screen.address_edit.current_address">Your current location</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="screen.address_edit.current_address" comment="screen.address_edit.current_address Address Editing">Your current location</string>
   <string name="screen.address_edit.invalid_address">Your address is slightly off</string>
   <string name="screen.address_edit.invalid_address_message">Choose a precise spot to continue</string>
   <string name="screen.address_edit.ok">Cool!</string>
@@ -10,20 +8,14 @@
   <string name="screen.address_edit.address_slightly_off">Address is slightly off</string>
   <string name="screen.address_edit.find_sharp_spot">Let’s find the exact spot for you</string>
   <string name="screen.address_edit.retry_address_grab">Can’t grab your address — one more time?</string>
-
-  <!-- Address Widget -->
-  <string name="widget.address.action">Drop your address</string>
+  <string name="widget.address.action" comment="widget.address.action Address Widget">Drop your address</string>
   <string name="widget.address.direction">We’ll map the route</string>
   <string name="widget.address.navigate">Let’s go!</string>
   <string name="widget.address.placeholder">Enter your address</string>
   <string name="widget.address.title">Your address</string>
-
-  <!-- App Icon Widget -->
-  <string name="widget.app_icon.title">Choose an app icon</string>
-
-  <!-- Appointment Widget -->
-  <string name="widget.appointment.today">Today</string>
-  <string name="widget.appointment_cell.declined_by_customer">Customer said "no"</string>
+  <string name="widget.app_icon.title" comment="widget.app_icon.title App Icon Widget">Choose an app icon</string>
+  <string name="widget.appointment.today" comment="widget.appointment.today Appointment Widget">Today</string>
+  <string name="widget.appointment_cell.declined_by_customer">Customer said \"no\"</string>
   <string name="widget.appointment_cell.need_your_action">Your move!</string>
   <string name="widget.appointment_status.canceled">Canceled</string>
   <string name="widget.appointment_status.confirm">Confirm</string>
@@ -31,22 +23,18 @@
   <string name="widget.appointment_status.expired">Time’s up</string>
   <string name="widget.appointment_status.reject">Reject</string>
   <string name="widget.appointment_status.waiting">Awaiting response</string>
-
-  <!-- Approval Widget -->
-  <string name="widget.approve.accept">Confirm order</string>
+  <string name="widget.approve.accept" comment="widget.approve.accept Approval Widget">Confirm order</string>
   <string name="widget.approve.delete">Delete appointment</string>
   <string name="widget.approve.error_title">Something went wrong</string>
   <string name="widget.approve.expired_title">Missed confirming the appointment</string>
   <string name="widget.approve.left_to_accept">Left to confirm</string>
-
-  <!-- Appointment Creation -->
-  <string name="creatable.appt.afternoon">Afternoon</string>
+  <string name="creatable.appt.afternoon" comment="creatable.appt.afternoon Appointment Creation">Afternoon</string>
   <string name="creatable.appt.appointment_warning">**Good to know before the procedure:**</string>
   <string name="creatable.appt.check_master">Looking for your master — one sec!</string>
   <string name="creatable.appt.check_procedure">Checking your procedure — coming soon</string>
   <string name="creatable.appt.choose_master">Choose your master</string>
   <string name="creatable.appt.choose_customer">Who’s your customer?</string>
-  <string name="creatable.appt.click_complete">Click "Complete" to lock it in</string>
+  <string name="creatable.appt.click_complete">Click \"Complete\" to lock it in</string>
   <string name="creatable.appt.complete">Complete</string>
   <string name="creatable.appt.congratulations">Your appointment is ready!</string>
   <string name="creatable.appt.day">Day</string>
@@ -65,81 +53,51 @@
   <string name="creatable.appt.time">Time</string>
   <string name="creatable.appt.time_slots_absent">No available slots</string>
   <string name="creatable.appt.title">Your new appointment</string>
-
-  <!-- Appointment Footer -->
-  <string name="widget.appt_footer.subtitle">Open</string>
+  <string name="widget.appt_footer.subtitle" comment="widget.appt_footer.subtitle Appointment Footer">Open</string>
   <string name="widget.appt_footer.title">Your history</string>
-
-  <!-- Appointment Screen -->
-  <string name="screen.appt.accept">Confirm appointment</string>
+  <string name="screen.appt.accept" comment="screen.appt.accept Appointment Screen">Confirm appointment</string>
   <string name="screen.appt.delete">Delete appointment</string>
   <string name="screen.appt.expired_title">Confirmation time expired</string>
-  <string name="screen.appt.left_to_accept">Left to say "yes"</string>
-
-  <!-- Authentication Creation -->
-  <string name="creatable.auth.enter_name">What’s your name?</string>
+  <string name="screen.appt.left_to_accept">Left to say \"yes\"</string>
+  <string name="creatable.auth.enter_name" comment="creatable.auth.enter_name Authentication Creation">What’s your name?</string>
   <string name="creatable.auth.later_logo">No photo ready? Add it later in your profile</string>
   <string name="creatable.auth.placeholder">Your name</string>
-  <string name="creatable.auth.privacy">Click "Continue" — and you agree to the [Privacy Policy](%1$s) and [User Agreement](%2$s)</string>
+  <string name="creatable.auth.privacy">Click \"Continue\" — and you agree to the [Privacy Policy](%1$s) and [User Agreement](%2$s)</string>
   <string name="creatable.auth.title">Come on in</string>
   <string name="creatable.auth.upload_logo">Drop your avatar</string>
   <string name="creatable.auth.welcome_message">**Sign in or register** to make everything work on any device</string>
   <string name="creatable.auth.who_are_you">Are you a master or a customer?</string>
-
-  <!-- Authentication Screen -->
-  <string name="screen.auth.title">Your login</string>
-
-  <!-- Auth Banners -->
-  <string name="widget.banners_auth.accent">Register</string>
+  <string name="screen.auth.title" comment="screen.auth.title Authentication Screen">Your login</string>
+  <string name="widget.banners_auth.accent" comment="widget.banners_auth.accent Auth Banners">Register</string>
   <string name="widget.banners_auth.subtitle">So you don’t lose your appointments — let’s register</string>
   <string name="widget.banners_auth.title">You’re not with us yet</string>
-
-  <!-- Feedback Banners -->
-  <string name="widget.banners_feedback.accent">Cancel</string>
+  <string name="widget.banners_feedback.accent" comment="widget.banners_feedback.accent Feedback Banners">Cancel</string>
   <string name="widget.banners_feedback.subtitle">Leave a review or your thoughts</string>
   <string name="widget.banners_feedback.title">Make us better!</string>
-
-  <!-- Subscription Banners -->
-  <string name="widget.banners_subscription.subtitle">Activate your subscription</string>
+  <string name="widget.banners_subscription.subtitle" comment="widget.banners_subscription.subtitle Subscription Banners">Activate your subscription</string>
   <string name="widget.banners_subscription.title">%1$s\nfor only %2$s 💫</string>
-
-  <!-- Calendar Sheet -->
-  <string name="sheet.calendar.today">Today</string>
-
-  <!-- Client Verification Creation -->
-  <string name="creatable.client_verification.confirm_communication">Confirm one contact method to pass verification</string>
+  <string name="sheet.calendar.today" comment="sheet.calendar.today Calendar Sheet">Today</string>
+  <string name="creatable.client_verification.confirm_communication" comment="creatable.client_verification.confirm_communication Client Verification Creation">Confirm one contact method to pass verification</string>
   <string name="creatable.client_verification.continue_button">Let’s go</string>
   <string name="creatable.client_verification.placeholder">Add your contact</string>
   <string name="creatable.client_verification.response">This contact doesn’t match the previous one</string>
   <string name="creatable.client_verification.successful_response">Awesome! You’ve passed verification. The salon is now in favorites, and your orders are synced</string>
   <string name="creatable.client_verification.title">Verifying you</string>
-
-  <!-- Client Creation -->
-  <string name="creatable.client.add_contact">Add a contact</string>
+  <string name="creatable.client.add_contact" comment="creatable.client.add_contact Client Creation">Add a contact</string>
   <string name="creatable.client.enter_client_name">What’s the client’s name?</string>
   <string name="creatable.client.placeholder">Client’s name</string>
   <string name="creatable.client.title">New client</string>
-
-  <!-- Clients Screen -->
-  <string name="screen.clients.add_client">Add clients</string>
+  <string name="screen.clients.add_client" comment="screen.clients.add_client Clients Screen">Add clients</string>
   <string name="screen.clients.title">Your clients</string>
-
-  <!-- Clients Widget -->
-  <string name="widget.clients.action">Add a client</string>
+  <string name="widget.clients.action" comment="widget.clients.action Clients Widget">Add a client</string>
   <string name="widget.clients.link">View all</string>
   <string name="widget.clients.title">Your clients</string>
-
-  <!-- Common Profile Update -->
-  <string name="creatable.common_profile_update.enter_name">Come up with a new name</string>
+  <string name="creatable.common_profile_update.enter_name" comment="creatable.common_profile_update.enter_name Common Profile Update">Come up with a new name</string>
   <string name="creatable.common_profile_update.placeholder">Your name</string>
   <string name="creatable.common_profile_update.title">Update your profile</string>
   <string name="creatable.common_profile_update.upload_avatar">Drop a new avatar</string>
-
-  <!-- General -->
-  <string name="widget.common.tomorrow">Tomorrow</string>
-
-  <!-- Components -->
-  <string name="widget.component.address_input_field_enter_address">Add your address</string>
+  <string name="widget.common.tomorrow" comment="widget.common.tomorrow General">Tomorrow</string>
+  <string name="widget.component.address_input_field_enter_address" comment="widget.component.address_input_field_enter_address Components">Add your address</string>
   <string name="widget.component.alert_client_confirmation">You’ve followed a link to sync your order history. The salon linked to this will be added to favorites — confirm?</string>
   <string name="widget.component.alert_confirmation">Confirm</string>
   <string name="widget.component.alert_congratulations">Awesome!</string>
@@ -200,9 +158,7 @@
   <string name="widget.component.text_input_field_identifier_placeholder">your_nick</string>
   <string name="widget.component.text_input_field_link">https://maestri.me/</string>
   <string name="widget.component.text_message_skip_text">Skip</string>
-
-  <!-- Contact Creation -->
-  <string name="creatable.contact.contact_type">Choose your preferred contact method</string>
+  <string name="creatable.contact.contact_type" comment="creatable.contact.contact_type Contact Creation">Choose your preferred contact method</string>
   <string name="creatable.contact.email">Please enter your email</string>
   <string name="creatable.contact.email_later">Add email later in settings</string>
   <string name="creatable.contact.instagram">Please enter your Instagram</string>
@@ -214,56 +170,34 @@
   <string name="creatable.contact.title">Contact</string>
   <string name="creatable.contact.whatsapp_number">Please enter your WhatsApp</string>
   <string name="creatable.contact.whatsapp_number_later">Add WhatsApp later in settings</string>
-
-  <!-- Contacts Screen -->
-  <string name="screen.contact.select_number">Select number</string>
+  <string name="screen.contact.select_number" comment="screen.contact.select_number Contacts Screen">Select number</string>
   <string name="screen.contact.title">Your contacts</string>
-
-  <!-- Contact Cell Widget -->
-  <string name="widget.contact_cell.select_number">Select number</string>
-
-  <!-- Contacts Widget -->
-  <string name="widget.contacts.alert_title">Sure you want to remove this contact?</string>
+  <string name="widget.contact_cell.select_number" comment="widget.contact_cell.select_number Contact Cell Widget">Select number</string>
+  <string name="widget.contacts.alert_title" comment="widget.contacts.alert_title Contacts Widget">Sure you want to remove this contact?</string>
   <string name="widget.contacts.contacts_is_empty">No contacts yet</string>
   <string name="widget.contacts.title">Your contacts</string>
   <string name="widget.contacts.button">Add new contact</string>
-
-  <!-- Creation Errors -->
-  <string name="error.creatable_position.missing_permissions">Error setting permissions. Try again. If the issue persists, contact support with code: missingPermissions</string>
+  <string name="error.creatable_position.missing_permissions" comment="error.creatable_position.missing_permissions Creation Errors">Error setting permissions. Try again. If the issue persists, contact support with code: missingPermissions</string>
   <string name="error.creatable_position.missing_salary">Error setting salary. Try again. If the issue persists, contact support with code: missingSalary</string>
   <string name="error.creatable_position.missing_title">Error with position title. Try again. If the issue persists, contact support with code: missingTitle</string>
-
-  <!-- Contact Selection -->
-  <string name="creatable.contact.select_one_required">Select at least one contact</string>
+  <string name="creatable.contact.select_one_required" comment="creatable.contact.select_one_required Contact Selection">Select at least one contact</string>
   <string name="creatable.contact.select_count">Select %d</string>
   <string name="creatable.contact.title_alt">Your contacts</string>
-
-  <!-- Creation Screen -->
-  <string name="screen.creation.close">Close</string>
-
-  <!-- Customer Creation -->
-  <string name="creatable.customer.add_contact">Add contact</string>
+  <string name="screen.creation.close" comment="screen.creation.close Creation Screen">Close</string>
+  <string name="creatable.customer.add_contact" comment="creatable.customer.add_contact Customer Creation">Add contact</string>
   <string name="creatable.customer.continue_button">Continue</string>
-  <string name="creatable.customer.invitation_link">"Have an invitation link? Enter it here"</string>
-  <string name="creatable.customer.link_is_not_valid">"Link doesn’t work. Check again"</string>
-  <string name="creatable.customer.registration_completed">"Have an invitation link? Use it after registration"</string>
+  <string name="creatable.customer.invitation_link">Have an invitation link? Enter it here</string>
+  <string name="creatable.customer.link_is_not_valid">Link doesn’t work. Check again</string>
+  <string name="creatable.customer.registration_completed">Have an invitation link? Use it after registration</string>
   <string name="creatable.customer.title">Add customer</string>
-
-  <!-- Customer Widget -->
-  <string name="widget.customer.all_title">All your customers</string>
+  <string name="widget.customer.all_title" comment="widget.customer.all_title Customer Widget">All your customers</string>
   <string name="widget.customer.invite">Invite customer</string>
   <string name="widget.customer.title">Customer</string>
-
-  <!-- Customers Sheet -->
-  <string name="sheet.customers.create_client">Add new customer</string>
-
-  <!-- Cycled Schedule Creation -->
-  <string name="creatable.cycled_schedule.make_schedule">Set up your work days</string>
+  <string name="sheet.customers.create_client" comment="sheet.customers.create_client Customers Sheet">Add new customer</string>
+  <string name="creatable.cycled_schedule.make_schedule" comment="creatable.cycled_schedule.make_schedule Cycled Schedule Creation">Set up your work days</string>
   <string name="creatable.cycled_schedule.shift_schedule">Work days: %1$s, Days off: %2$s</string>
   <string name="creatable.cycled_schedule.title">Create schedule</string>
-
-  <!-- Danger Zone -->
-  <string name="widget.danger_zone.delete_hint">This action cannot be undone</string>
+  <string name="widget.danger_zone.delete_hint" comment="widget.danger_zone.delete_hint Danger Zone">This action cannot be undone</string>
   <string name="widget.danger_zone.delete_title">Delete your account</string>
   <string name="widget.danger_zone.logout">Log out</string>
   <string name="widget.danger_zone.logout_hint">Log out of your account</string>
@@ -273,40 +207,26 @@
   <string name="widget.danger_zone.user_delete_message_alert">Enter your nickname to confirm</string>
   <string name="widget.danger_zone.user_delete_title_alert">No going back. Sure you want to do this?</string>
   <string name="widget.danger_zone.warning">Careful!</string>
-
-  <!-- Day Schedule Creation -->
-  <string name="creatable.day_schedule.configure_schedule">Set time for schedule setup</string>
+  <string name="creatable.day_schedule.configure_schedule" comment="creatable.day_schedule.configure_schedule Day Schedule Creation">Set time for schedule setup</string>
   <string name="creatable.day_schedule.select_first_day">Choose the first work day</string>
   <string name="creatable.day_schedule.set_daily_schedule">Set up daily schedule</string>
   <string name="creatable.day_schedule.title">Create schedule</string>
-
-  <!-- Description Widget -->
-  <string name="widget.description.hide">Hide</string>
+  <string name="widget.description.hide" comment="widget.description.hide Description Widget">Hide</string>
   <string name="widget.description.show_more">Show more</string>
   <string name="widget.description.title">Description</string>
-
-  <!-- Employee Schedule Card -->
-  <string name="widget.employee_schedule_card.breaks">BREAK</string>
+  <string name="widget.employee_schedule_card.breaks" comment="widget.employee_schedule_card.breaks Employee Schedule Card">BREAK</string>
   <string name="widget.employee_schedule_card.day_off">DAY OFF</string>
   <string name="widget.employee_schedule_card.work_time">WORK TIME</string>
-
-  <!-- Appointment Errors -->
-  <string name="error.appointment.missing_date_interval">Error selecting date and time. Try again. If the issue persists, contact support with code: missingDateInterval</string>
+  <string name="error.appointment.missing_date_interval" comment="error.appointment.missing_date_interval Appointment Errors">Error selecting date and time. Try again. If the issue persists, contact support with code: missingDateInterval</string>
   <string name="error.appointment.missing_master">Error selecting master. Try again. If the issue persists, contact support with code: missingMaster</string>
   <string name="error.appointment.missing_procedures">Error with procedures. Try again. If the issue persists, contact support with code: missingProcedures</string>
-
-  <!-- Client Errors -->
-  <string name="error.client.missing_client_contacts">Client contacts lost. Try again or contact support with code: missingClientContacts</string>
+  <string name="error.client.missing_client_contacts" comment="error.client.missing_client_contacts Client Errors">Client contacts lost. Try again or contact support with code: missingClientContacts</string>
   <string name="error.client.missing_client_name">Client name missing. Try again or contact support with code: missingClientName</string>
-
-  <!-- Default Errors -->
-  <string name="error.default.failed_to_load_image">Failed to load image</string>
+  <string name="error.default.failed_to_load_image" comment="error.default.failed_to_load_image Default Errors">Failed to load image</string>
   <string name="error.default.register_as_client">Register as a client to process the link</string>
   <string name="error.default.register_as_master">Register as a master to process the link</string>
   <string name="error.default.unknown_error">Unknown error</string>
-
-  <!-- HTTP Errors -->
-  <string name="error.http.bad_gateway">502 Bad Gateway: The server acting as a gateway or proxy received an invalid response from an upstream server.</string>
+  <string name="error.http.bad_gateway" comment="error.http.bad_gateway HTTP Errors">502 Bad Gateway: The server acting as a gateway or proxy received an invalid response from an upstream server.</string>
   <string name="error.http.bad_request">400 Bad Request: The server cannot understand the request due to invalid syntax.</string>
   <string name="error.http.conflict">409 Conflict: The request could not be processed due to a conflict, such as an edit conflict between multiple simultaneous updates.</string>
   <string name="error.http.error">Oops!</string>
@@ -317,45 +237,29 @@
   <string name="error.http.not_found">404 Not Found: The server cannot find the requested resource. The most common error for a missing page.</string>
   <string name="error.http.service_unavailable">503 Service Unavailable: The server cannot handle the request due to temporary overload or maintenance.</string>
   <string name="error.http.unauthorized">401 Unauthorized: Authentication required. User must log in to access.</string>
-
-  <!-- Procedure Errors -->
-  <string name="error.procedure.missing_duration">Error with procedure duration. Try again. If the issue persists, contact support with code: missingDuration</string>
+  <string name="error.procedure.missing_duration" comment="error.procedure.missing_duration Procedure Errors">Error with procedure duration. Try again. If the issue persists, contact support with code: missingDuration</string>
   <string name="error.procedure.missing_master">Error assigning master to the procedure. Try again. If the issue persists, contact support with code: missingMaster</string>
   <string name="error.procedure.missing_price">Error with procedure price. Try again. If the issue persists, contact support with code: missingPrice</string>
   <string name="error.procedure.missing_service_id">Error with service ID. Try again. If the issue persists, contact support with code: missingServiceId</string>
-
-  <!-- Salon Errors -->
-  <string name="error.salon.missing_address">Error with salon address. Try again or contact support with code: missingAddress</string>
+  <string name="error.salon.missing_address" comment="error.salon.missing_address Salon Errors">Error with salon address. Try again or contact support with code: missingAddress</string>
   <string name="error.salon.missing_locale">Error with salon locale. Try again or contact support with code: missingLocale</string>
   <string name="error.salon.missing_name">Error with salon name. Try again or contact support with code: missingName</string>
   <string name="error.salon.missing_timetable">Salon timetable missing. Try again or contact support with code: missingTimetable</string>
   <string name="error.salon.missing_time_zone">Error with salon timezone. Try again or contact support with code: missingTimeZone</string>
   <string name="error.salon.missing_type">Error with salon type. Try again or contact support with code: missingType</string>
-
-  <!-- Service Errors -->
-  <string name="error.service.missing_category">Issue with service category. Try again or contact support with code: missingCategory</string>
+  <string name="error.service.missing_category" comment="error.service.missing_category Service Errors">Issue with service category. Try again or contact support with code: missingCategory</string>
   <string name="error.service.missing_description">Error with service description. Try again or contact support with code: missingDescription</string>
   <string name="error.service.missing_title">Error with service title. Try again or contact support with code: missingTitle</string>
-
-  <!-- Full Schedule Screen -->
-  <string name="screen.full_schedule.salon_schedule">Your salon schedule</string>
+  <string name="screen.full_schedule.salon_schedule" comment="screen.full_schedule.salon_schedule Full Schedule Screen">Your salon schedule</string>
   <string name="screen.full_schedule.select_masters">Select masters</string>
-
-  <!-- Full Procedure Widget -->
-  <string name="widget.full_procedure.title">Choose a master</string>
-
-  <!-- "Who Am I" Widget -->
-  <string name="widget.i_am.customer">Customer</string>
+  <string name="widget.full_procedure.title" comment="widget.full_procedure.title Full Procedure Widget">Choose a master</string>
+  <string name="widget.i_am.customer" comment="widget.i_am.customer &quot;Who Am I&quot; Widget">Customer</string>
   <string name="widget.i_am.customer_register">Register as a customer</string>
   <string name="widget.i_am.professional">Master</string>
   <string name="widget.i_am.professional_register">Register as a master</string>
   <string name="widget.i_am.title">Who are you?</string>
-
-  <!-- Appointments List Screen -->
-  <string name="screen.list_appointments.switch_button">Journal</string>
-
-  <!-- Main Customer Screen -->
-  <string name="screen.main.title">Home</string>
+  <string name="screen.list_appointments.switch_button" comment="screen.list_appointments.switch_button Appointments List Screen">Journal</string>
+  <string name="screen.main.title" comment="screen.main.title Main Customer Screen">Home</string>
   <string name="screen.main_customer.favorites">Favorites</string>
   <string name="screen.main_customer.footer_subtitle">Open</string>
   <string name="screen.main_customer.footer_title">History</string>
@@ -363,13 +267,9 @@
   <string name="screen.main_customer.no_favorites">No favorites yet</string>
   <string name="screen.main_customer.no_salons">No salons nearby</string>
   <string name="screen.main_customer.salons">Salons</string>
-
-  <!-- Map Screen -->
-  <string name="screen.map.search_button">Search this area</string>
+  <string name="screen.map.search_button" comment="screen.map.search_button Map Screen">Search this area</string>
   <string name="screen.map.search_button_warning">Zoom in to search</string>
-
-  <!-- Master Danger Zone -->
-  <string name="widget.master_danger_zone.cancel_hint">Master won’t be able to join via this link</string>
+  <string name="widget.master_danger_zone.cancel_hint" comment="widget.master_danger_zone.cancel_hint Master Danger Zone">Master won’t be able to join via this link</string>
   <string name="widget.master_danger_zone.cancel_message_alert">Master won’t be able to join via this link</string>
   <string name="widget.master_danger_zone.cancel_title">Cancel invitation</string>
   <string name="widget.master_danger_zone.cancel_title_alert">Sure you want to cancel?</string>
@@ -381,13 +281,9 @@
   <string name="widget.master_danger_zone.master_deactivate_message_alert">Sure you want to pause the master?</string>
   <string name="widget.master_danger_zone.master_delete_message_alert">Enter the master’s name to confirm</string>
   <string name="widget.master_danger_zone.master_delete_title_alert">No turning back. Sure?</string>
-
-  <!-- Masters -->
-  <string name="widget.master.all_action">Invite a master</string>
+  <string name="widget.master.all_action" comment="widget.master.all_action Masters">Invite a master</string>
   <string name="widget.master.all_title">All masters</string>
-
-  <!-- Master Creation -->
-  <string name="creatable.master.add_contact">Add contact</string>
+  <string name="creatable.master.add_contact" comment="creatable.master.add_contact Master Creation">Add contact</string>
   <string name="creatable.master.choose_position">Choose position</string>
   <string name="creatable.master.description_placeholder">Description</string>
   <string name="creatable.master.enter_master_description">Please describe the master</string>
@@ -396,39 +292,25 @@
   <string name="creatable.master.setup_schedule">You can set up the invited master’s work schedule</string>
   <string name="creatable.master.successfully_created">Cool! You’ve invited a new master!</string>
   <string name="creatable.master.title">Master</string>
-
-  <!-- Masters Screen -->
-  <string name="screen.master.all_action">Invite a master</string>
+  <string name="screen.master.all_action" comment="screen.master.all_action Masters Screen">Invite a master</string>
   <string name="screen.master.all_title">All masters</string>
   <string name="screen.master.invite_link">Invitation link</string>
   <string name="screen.master.new_master">New master</string>
-
-  <!-- Master Widget -->
-  <string name="widget.master.action">Invite a master</string>
+  <string name="widget.master.action" comment="widget.master.action Master Widget">Invite a master</string>
   <string name="widget.master.all_action_alt">Invite a master</string>
   <string name="widget.master.all_title_alt">All masters</string>
   <string name="widget.master.link">View all</string>
   <string name="widget.master.single_master">Your master</string>
   <string name="widget.master.title">Your masters</string>
   <string name="widget.master.type_master">Master</string>
-
-  <!-- Masters Screen -->
-  <string name="screen.masters.positions">Positions</string>
-
-  <!-- Masters Sheet -->
-  <string name="sheet.masters.title">Your masters</string>
+  <string name="screen.masters.positions" comment="screen.masters.positions Masters Screen">Positions</string>
+  <string name="sheet.masters.title" comment="sheet.masters.title Masters Sheet">Your masters</string>
   <string name="sheet.masters.unknown">Unknown</string>
-
-  <!-- Role Selection Screen -->
-  <string name="screen.not_chosen.create_customer_button">Customer</string>
+  <string name="screen.not_chosen.create_customer_button" comment="screen.not_chosen.create_customer_button Role Selection Screen">Customer</string>
   <string name="screen.not_chosen.create_professional_button">Master</string>
   <string name="screen.not_chosen.main_placeholder">Choose who you are to complete registration</string>
-
-  <!-- Notifications -->
-  <string name="screen.notice.title">Notifications</string>
-
-  <!-- Permissions -->
-  <string name="widget.permissions.appointments">Access to appointments</string>
+  <string name="screen.notice.title" comment="screen.notice.title Notifications">Notifications</string>
+  <string name="widget.permissions.appointments" comment="widget.permissions.appointments Permissions">Access to appointments</string>
   <string name="widget.permissions.contact">Access to contacts</string>
   <string name="widget.permissions.employee">Access to employees</string>
   <string name="widget.permissions.finance">Access to finances</string>
@@ -444,55 +326,37 @@
   <string name="widget.permissions.timetable">Access to schedule</string>
   <string name="widget.permissions.is_empty">No required access</string>
   <string name="widget.permissions.title">Permissions</string>
-
-  <!-- Position Creation -->
-  <string name="creatable.position.add_permissions">Set permissions for this role</string>
-  <string name="creatable.position.click_create">Click "Create" to save</string>
+  <string name="creatable.position.add_permissions" comment="creatable.position.add_permissions Position Creation">Set permissions for this role</string>
+  <string name="creatable.position.click_create">Click \"Create\" to save</string>
   <string name="creatable.position.enter_position_name">Please enter the position name</string>
   <string name="creatable.position.permissions_is_empty">No permissions added</string>
   <string name="creatable.position.placeholder">Please enter position</string>
   <string name="creatable.position.set_salary_is_empty">No payment terms yet</string>
   <string name="creatable.position.setting_salary">Specify salary for this position</string>
   <string name="creatable.position.title">Position</string>
-
-  <!-- Position Screen -->
-  <string name="screen.position.add_position">Add position</string>
+  <string name="screen.position.add_position" comment="screen.position.add_position Position Screen">Add position</string>
   <string name="screen.position.title">Positions</string>
-
-  <!-- Position Danger Zone -->
-  <string name="widget.position_danger_zone.delete_hint">No going back — sure?</string>
+  <string name="widget.position_danger_zone.delete_hint" comment="widget.position_danger_zone.delete_hint Position Danger Zone">No going back — sure?</string>
   <string name="widget.position_danger_zone.delete_title">Delete position</string>
   <string name="widget.position_danger_zone.delete_title_alert">Action cannot be undone. Sure you want to delete?</string>
   <string name="widget.position_danger_zone.delete_title_message">Confirm deletion</string>
-
-  <!-- Positions Sheet -->
-  <string name="sheet.positions.create_position">Add new position</string>
-
-  <!-- Positions Widget -->
-  <string name="widget.positions.alert_title">Sure you want to remove this position?</string>
+  <string name="sheet.positions.create_position" comment="sheet.positions.create_position Positions Sheet">Add new position</string>
+  <string name="widget.positions.alert_title" comment="widget.positions.alert_title Positions Widget">Sure you want to remove this position?</string>
   <string name="widget.positions.link">Show all</string>
   <string name="widget.positions.is_empty">No positions found</string>
   <string name="widget.positions.title">Position</string>
   <string name="widget.positions.button">Add position</string>
-
-  <!-- Procedures -->
-  <string name="widget.proc.all_action">Add procedure</string>
+  <string name="widget.proc.all_action" comment="widget.proc.all_action Procedures">Add procedure</string>
   <string name="widget.proc.all_title">All procedures</string>
   <string name="widget.proc.link">All</string>
   <string name="widget.proc.title">Procedures</string>
-
-  <!-- Procedure Cell -->
-  <string name="widget.procedure_cell.info">Details</string>
-
-  <!-- Procedure Update -->
-  <string name="creatable.procedure_update.alias_step_placeholder">New procedure name</string>
+  <string name="widget.procedure_cell.info" comment="widget.procedure_cell.info Procedure Cell">Details</string>
+  <string name="creatable.procedure_update.alias_step_placeholder" comment="creatable.procedure_update.alias_step_placeholder Procedure Update">New procedure name</string>
   <string name="creatable.procedure_update.enter_new_alias">Please enter a new procedure name</string>
   <string name="creatable.procedure_update.title">Edit procedure</string>
-
-  <!-- Procedure Creation -->
-  <string name="creatable.procedure.alias">Want a custom name for the service? Suggest it!</string>
-  <string name="creatable.procedure.click_create">Click "Create" to save</string>
-  <string name="creatable.procedure.enter_procedure_description">Describe the procedure. E.g., "Bring a towel, arrive 10–15 minutes early, remove jewelry, warn about contraindications"</string>
+  <string name="creatable.procedure.alias" comment="creatable.procedure.alias Procedure Creation">Want a custom name for the service? Suggest it!</string>
+  <string name="creatable.procedure.click_create">Click \"Create\" to save</string>
+  <string name="creatable.procedure.enter_procedure_description">Describe the procedure. E.g., \"Bring a towel, arrive 10–15 minutes early, remove jewelry, warn about contraindications\"</string>
   <string name="creatable.procedure.placeholder">Please enter procedure name</string>
   <string name="creatable.procedure.procedure_cost">Specify procedure cost</string>
   <string name="creatable.procedure.procedure_duration">Specify procedure duration</string>
@@ -500,48 +364,32 @@
   <string name="creatable.procedure.select_procedure">Enter name or select from list</string>
   <string name="creatable.procedure.select_procedure_info">Choosing from a pre-made list helps customers find you</string>
   <string name="creatable.procedure.title">Procedure</string>
-
-  <!-- Procedure Screen -->
-  <string name="screen.procedure.alert_title">Sure you want to delete?</string>
+  <string name="screen.procedure.alert_title" comment="screen.procedure.alert_title Procedure Screen">Sure you want to delete?</string>
   <string name="screen.procedure.select">Select</string>
-
-  <!-- Professional Creation -->
-  <string name="creatable.professional.click_continue">Click "Continue" to become a master</string>
+  <string name="creatable.professional.click_continue" comment="creatable.professional.click_continue Professional Creation">Click \"Continue\" to become a master</string>
   <string name="creatable.professional.continue_button">Next</string>
   <string name="creatable.professional.create_another_salon">You can also add another salon?</string>
   <string name="creatable.professional.create_first_salon">You can create your first salon</string>
-  <string name="creatable.professional.invitation_link">"Have an invitation link? Enter it below"</string>
-  <string name="creatable.professional.link_is_not_valid">"Link doesn’t work. Check again"</string>
+  <string name="creatable.professional.invitation_link">Have an invitation link? Enter it below</string>
+  <string name="creatable.professional.link_is_not_valid">Link doesn’t work. Check again</string>
   <string name="creatable.professional.title">Register as a master</string>
-
-  <!-- Professional Screen -->
-  <string name="screen.professional.add_new_salon_button">Add new salon</string>
-
-  <!-- Profile Update -->
-  <string name="creatable.profile_update.enter_name">Come up with a new nickname</string>
+  <string name="screen.professional.add_new_salon_button" comment="screen.professional.add_new_salon_button Professional Screen">Add new salon</string>
+  <string name="creatable.profile_update.enter_name" comment="creatable.profile_update.enter_name Profile Update">Come up with a new nickname</string>
   <string name="creatable.profile_update.placeholder">Name</string>
   <string name="creatable.profile_update.title">Update your profile</string>
   <string name="creatable.profile_update.upload_avatar">Upload new avatar</string>
-
-  <!-- Profile -->
-  <string name="widget.profile.app_icon_title">Choose an app icon</string>
+  <string name="widget.profile.app_icon_title" comment="widget.profile.app_icon_title Profile">Choose an app icon</string>
   <string name="widget.profile.danger_delete_hint">No going back — sure?</string>
   <string name="widget.profile.danger_delete_title">Delete your profile</string>
   <string name="widget.profile.danger_logout_action">Log out</string>
   <string name="widget.profile.danger_logout_title">Log out of profile</string>
   <string name="screen.profile.title">Profile</string>
-
-  <!-- Subscription -->
-  <string name="widget.profile_subscription.activate">Activate subscription</string>
+  <string name="widget.profile_subscription.activate" comment="widget.profile_subscription.activate Subscription">Activate subscription</string>
   <string name="widget.profile_subscription.cancel">Cancel subscription</string>
   <string name="widget.profile_subscription.subtitle">Subscription valid until %s</string>
   <string name="widget.profile_subscription.title">Subscription</string>
-
-  <!-- Public Screen -->
-  <string name="screen.public.login">Log in</string>
-
-  <!-- Salary -->
-  <string name="widget.salary.daily_wage">Daily wage</string>
+  <string name="screen.public.login" comment="screen.public.login Public Screen">Log in</string>
+  <string name="widget.salary.daily_wage" comment="widget.salary.daily_wage Salary">Daily wage</string>
   <string name="widget.salary.hourly_wage">Hourly wage</string>
   <string name="widget.salary.individual_rate">Individual rate per job</string>
   <string name="widget.salary.monthly_wage">Monthly wage</string>
@@ -558,9 +406,7 @@
   <string name="sheet.salary.wage_widget_title">Fixed pay</string>
   <string name="widget.salary.title">Payment terms</string>
   <string name="widget.salary.button">Add new condition</string>
-
-  <!-- Salon Danger Zone -->
-  <string name="widget.salon_danger_zone.activate">Activate</string>
+  <string name="widget.salon_danger_zone.activate" comment="widget.salon_danger_zone.activate Salon Danger Zone">Activate</string>
   <string name="widget.salon_danger_zone.activate_hint">Restore salon operation</string>
   <string name="widget.salon_danger_zone.activate_title">Activate salon</string>
   <string name="widget.salon_danger_zone.deactivate">Deactivate</string>
@@ -573,23 +419,17 @@
   <string name="widget.salon_danger_zone.delete_title_alert">No return. Sure?</string>
   <string name="widget.salon_danger_zone.error_alert_message">Try again!</string>
   <string name="widget.salon_danger_zone.error_alert_title">Salon name doesn’t match</string>
-
-  <!-- Salon QR Screen -->
-  <string name="screen.salon_qr.send_qr_button">Send QR code</string>
+  <string name="screen.salon_qr.send_qr_button" comment="screen.salon_qr.send_qr_button Salon QR Screen">Send QR code</string>
   <string name="screen.salon_qr.share_with_link_button">Share link</string>
-
-  <!-- Salon Update -->
-  <string name="creatable.salon_update.enter_name">Come up with a new salon name</string>
+  <string name="creatable.salon_update.enter_name" comment="creatable.salon_update.enter_name Salon Update">Come up with a new salon name</string>
   <string name="creatable.salon_update.placeholder">Salon name</string>
   <string name="creatable.salon_update.salon_type">Choose salon type</string>
   <string name="creatable.salon_update.title">Update salon</string>
   <string name="creatable.salon_update.upload_logo">Upload new logo</string>
-
-  <!-- Salon Creation -->
-  <string name="creatable.salon.add_address">Great! Now enter the salon address so customers can find you</string>
+  <string name="creatable.salon.add_address" comment="creatable.salon.add_address Salon Creation">Great! Now enter the salon address so customers can find you</string>
   <string name="creatable.salon.allow_button">Allow</string>
   <string name="creatable.salon.chain_type">Salon chain</string>
-  <string name="creatable.salon.click_create">Click "Create" to save</string>
+  <string name="creatable.salon.click_create">Click \"Create\" to save</string>
   <string name="creatable.salon.congratulations">Hooray! Your salon is created!</string>
   <string name="creatable.salon.create_schedule">Step by step! Set salon hours so customers know when to drop by</string>
   <string name="creatable.salon.description_placeholder">Description</string>
@@ -604,9 +444,7 @@
   <string name="creatable.salon.title">Create salon</string>
   <string name="creatable.salon.turn_on_notifications">Notifications are off in [settings](%s) — please enable them there</string>
   <string name="creatable.salon.upload_logo">Nice! Upload your salon logo to make it stand out</string>
-
-  <!-- Salon Screen -->
-  <string name="screen.salon.action">Create appointment</string>
+  <string name="screen.salon.action" comment="screen.salon.action Salon Screen">Create appointment</string>
   <string name="screen.salon.chain">Chain</string>
   <string name="screen.salon.help_message">Start with salon setup</string>
   <string name="screen.salon.help_submessage">Create a service first to book an appointment</string>
@@ -614,13 +452,9 @@
   <string name="screen.salon.master">Owner</string>
   <string name="screen.salon.setup_start">Start with salon setup</string>
   <string name="screen.salon.service_to_book">Create a service first to book</string>
-
-  <!-- Schedule -->
-  <string name="widget.schedule.empty_description">No one has booked with you yet</string>
+  <string name="widget.schedule.empty_description" comment="widget.schedule.empty_description Schedule">No one has booked with you yet</string>
   <string name="widget.schedule.empty_title">Your appointments will be here</string>
-
-  <!-- Schedule Creation -->
-  <string name="creatable.schedule.click_complete">Click "Complete" to create schedule</string>
+  <string name="creatable.schedule.click_complete" comment="creatable.schedule.click_complete Schedule Creation">Click \"Complete\" to create schedule</string>
   <string name="creatable.schedule.custom_schedule">Shift schedule</string>
   <string name="creatable.schedule.day_schedule">Daily schedule</string>
   <string name="creatable.schedule.schedule_type">Choose schedule type</string>
@@ -629,46 +463,30 @@
   <string name="creatable.schedule.shift_schedule_select">Specify work and off days</string>
   <string name="creatable.schedule.title">Create schedule</string>
   <string name="creatable.schedule.week_schedule">Weekly template</string>
-
-  <!-- Schedule Screen -->
-  <string name="screen.schedule.action">Book a client</string>
+  <string name="screen.schedule.action" comment="screen.schedule.action Schedule Screen">Book a client</string>
   <string name="screen.schedule.empty_description">No appointments for this day</string>
   <string name="screen.schedule.empty_title">Your appointments will be here</string>
   <string name="screen.schedule.expired">Time expired</string>
-
-  <!-- Notifications Screen -->
-  <string name="screen.notice.book">Create appointment</string>
+  <string name="screen.notice.book" comment="screen.notice.book Notifications Screen">Create appointment</string>
   <string name="screen.notice.error_placeholder">No notifications yet</string>
   <string name="screen.notice.read_all">Read all</string>
   <string name="screen.notice.title_alt">Notifications</string>
-
-  <!-- Search Screen -->
-  <string name="screen.search.placeholder">Find</string>
-
-  <!-- Service Selection Screen -->
-  <string name="screen.select_of_service.add_new_service">Add new service</string>
+  <string name="screen.search.placeholder" comment="screen.search.placeholder Search Screen">Find</string>
+  <string name="screen.select_of_service.add_new_service" comment="screen.select_of_service.add_new_service Service Selection Screen">Add new service</string>
   <string name="screen.select_of_service.apply">Apply</string>
   <string name="screen.select_of_service.procedures_header">Services</string>
-
-  <!-- Service Creation -->
-  <string name="creatable.service.description_placeholder">Description</string>
+  <string name="creatable.service.description_placeholder" comment="creatable.service.description_placeholder Service Creation">Description</string>
   <string name="creatable.service.enter_service_description">Tell us about the service</string>
   <string name="creatable.service.enter_service_name">Name your service</string>
   <string name="creatable.service.placeholder">Service name</string>
   <string name="creatable.service.summary_placeholder">Description</string>
   <string name="creatable.service.title">Create service</string>
-
-  <!-- Service Screen -->
-  <string name="screen.service.from">From</string>
+  <string name="screen.service.from" comment="screen.service.from Service Screen">From</string>
   <string name="screen.service.title">All services</string>
-
-  <!-- Services Widget -->
-  <string name="widget.services.action">Add new service</string>
+  <string name="widget.services.action" comment="widget.services.action Services Widget">Add new service</string>
   <string name="widget.services.link">All</string>
   <string name="widget.services.title">Services</string>
-
-  <!-- Side Menu -->
-  <string name="screen.side_menu.create_salon">Create your first salon</string>
+  <string name="screen.side_menu.create_salon" comment="screen.side_menu.create_salon Side Menu">Create your first salon</string>
   <string name="screen.side_menu.dashboard">Dashboard</string>
   <string name="screen.side_menu.quick_actions">Quick actions</string>
   <string name="screen.side_menu.read_all">Read all</string>
@@ -678,9 +496,7 @@
   <string name="screen.side_menu.to_client_mode">To client mode</string>
   <string name="screen.side_menu.toggle">Switch</string>
   <string name="screen.side_menu.workspace">Workspace</string>
-
-  <!-- Alternative Schedule Widget -->
-  <string name="widget.schedule_alt.action">Book a client</string>
+  <string name="widget.schedule_alt.action" comment="widget.schedule_alt.action Alternative Schedule Widget">Book a client</string>
   <string name="widget.schedule_alt.declined_by_customer">Customer declined</string>
   <string name="widget.schedule_alt.declined_by_master">Master declined</string>
   <string name="widget.schedule_alt.need_your_action">Your action needed!</string>
@@ -688,38 +504,24 @@
   <string name="widget.schedule_alt.status_message_alert">Activate the salon to book</string>
   <string name="widget.schedule_alt.status_title_alert">Failed to create appointment</string>
   <string name="widget.schedule_alt.title">Appointments</string>
-
-  <!-- Support Widget -->
-  <string name="widget.support.action">Chat with support</string>
+  <string name="widget.support.action" comment="widget.support.action Support Widget">Chat with support</string>
   <string name="widget.support.message">We’re here to help! Questions or issues — write to us!</string>
   <string name="widget.support.title">Got questions? We’re here!</string>
   <string name="widget.support.unknown">No clue</string>
   <string name="widget.support.user_message">Hello, I need help! My ID: %s</string>
-
-  <!-- Time Slot Creation -->
-  <string name="creatable.time_slot.time_zone_difference">Timezone differs from yours</string>
-
-  <!-- Appointment Update Sheet -->
-  <string name="sheet.timeline_appointment_update.appointment_transfer">Transfer appointment?</string>
+  <string name="creatable.time_slot.time_zone_difference" comment="creatable.time_slot.time_zone_difference Time Slot Creation">Timezone differs from yours</string>
+  <string name="sheet.timeline_appointment_update.appointment_transfer" comment="sheet.timeline_appointment_update.appointment_transfer Appointment Update Sheet">Transfer appointment?</string>
   <string name="sheet.timeline_appointment_update.confirm">Confirm</string>
   <string name="sheet.timeline_appointment_update.new_appointment_time">New appointment time:</string>
-
-  <!-- Plural Forms for Masters -->
-  <plurals name="screen.timeline_appointments.masters">
+  <plurals name="screen.timeline_appointments.masters" comment="screen.timeline_appointments.masters&#10;Plural Forms for Masters [one] [other]">
     <item quantity="one">%d master</item>
-    <item quantity="few">%d masters</item>
-    <item quantity="many">%d masters</item>
     <item quantity="other">%d masters</item>
   </plurals>
-
-  <!-- Appointments Timeline Screen -->
-  <string name="screen.timeline_appointments.masters_quantity">Number of masters</string>
+  <string name="screen.timeline_appointments.masters_quantity" comment="screen.timeline_appointments.masters_quantity Appointments Timeline Screen">Number of masters</string>
   <string name="screen.timeline_appointments.minutes">%d minute</string>
   <string name="screen.timeline_appointments.schedule_multiplicity">Schedule step</string>
   <string name="screen.timeline_appointments.switch_button">List</string>
-
-  <!-- Work Schedule -->
-  <string name="widget.timetable.add_break">Add break</string>
+  <string name="widget.timetable.add_break" comment="widget.timetable.add_break Work Schedule">Add break</string>
   <string name="widget.timetable.add_action">Add</string>
   <string name="widget.timetable.add_from">From</string>
   <string name="widget.timetable.add_link">Days off</string>
@@ -737,9 +539,7 @@
   <string name="widget.timetable.break">Break: %s</string>
   <string name="widget.timetable.dayoff">Day off</string>
   <string name="widget.timetable.title">Your work time</string>
-
-  <!-- Week Component -->
-  <string name="widget.week_component.day_off">Day off</string>
+  <string name="widget.week_component.day_off" comment="widget.week_component.day_off Week Component">Day off</string>
   <string name="widget.week_component.friday">Friday</string>
   <string name="widget.week_component.monday">Monday</string>
   <string name="widget.week_component.saturday">Saturday</string>
@@ -747,76 +547,39 @@
   <string name="widget.week_component.thursday">Thursday</string>
   <string name="widget.week_component.tuesday">Tuesday</string>
   <string name="widget.week_component.wednesday">Wednesday</string>
-
-  <!-- Weekly Schedule Creation -->
-  <string name="creatable.weekly_schedule.title">Create schedule</string>
-
-  <!-- Weekly Schedule Screen -->
-  <string name="screen.week_schedule.action">Apply</string>
+  <string name="creatable.weekly_schedule.title" comment="creatable.weekly_schedule.title Weekly Schedule Creation">Create schedule</string>
+  <string name="screen.week_schedule.action" comment="screen.week_schedule.action Weekly Schedule Screen">Apply</string>
   <string name="screen.week_schedule.add_break">Add break</string>
   <string name="screen.week_schedule.break_button">Break</string>
   <string name="screen.week_schedule.day_off">Day off</string>
   <string name="screen.week_schedule.from">START TIME</string>
   <string name="screen.week_schedule.save_break">Save break</string>
   <string name="screen.week_schedule.to">END TIME</string>
-
-  <!-- Welcome Screen -->
-  <string name="screen.welcome.description">A simple tool for your business</string>
+  <string name="screen.welcome.description" comment="screen.welcome.description Welcome Screen">A simple tool for your business</string>
   <string name="screen.welcome.title">Hello, welcome to</string>
-
-  <!-- Address Edit Screen -->
-
-  <!-- Clients Screen -->
-  <string name="screen.clients.drop_clients">Add clients</string>
-
-  <!-- Contacts Screen -->
-  <string name="screen.contact.back_off">Abort</string>
-
-  <!-- Date Selector Screen -->
-  <string name="screen.date_selector.tweak_date">Adjust</string>
-
-  <!-- Full Schedule Screen -->
-  <string name="screen.full_schedule.back_off">Abort</string>
+  <string name="screen.clients.drop_clients" comment="screen.clients.drop_clients Address Edit Screen Clients Screen">Add clients</string>
+  <string name="screen.contact.back_off" comment="screen.contact.back_off Contacts Screen">Abort</string>
+  <string name="screen.date_selector.tweak_date" comment="screen.date_selector.tweak_date Date Selector Screen">Adjust</string>
+  <string name="screen.full_schedule.back_off" comment="screen.full_schedule.back_off Full Schedule Screen">Abort</string>
   <string name="screen.full_schedule.tweak_slot">Adjust %d</string>
-
-  <!-- Role Selection Screen -->
-  <string name="screen.not_chosen.client_short">Customer</string>
+  <string name="screen.not_chosen.client_short" comment="screen.not_chosen.client_short Role Selection Screen">Customer</string>
   <string name="screen.not_chosen.pro_short">Master</string>
   <string name="screen.not_chosen.who_you_are_prompt">Choose who you are to complete registration</string>
-
-  <!-- Positions Screen -->
-  <string name="screen.position.drop_role">Remove position</string>
+  <string name="screen.position.drop_role" comment="screen.position.drop_role Positions Screen">Remove position</string>
   <string name="screen.position.nothing_found">Nothing found</string>
-
-  <!-- Procedures Screen -->
-  <string name="screen.proc.drop_procedure">Remove procedure</string>
-
-  <!-- Procedure Screen -->
-  <string name="screen.procedure.back_off">Abort</string>
-
-  <!-- Professional Screen -->
-  <string name="screen.professional.drop_salon">Add new salon</string>
-
-  <!-- Public Screen -->
-  <string name="screen.public.nothing_found">Nothing found</string>
-
-  <!-- Salon Screen -->
-  <string name="screen.salon.chain_lowercase">chain</string>
+  <string name="screen.proc.drop_procedure" comment="screen.proc.drop_procedure Procedures Screen">Remove procedure</string>
+  <string name="screen.procedure.back_off" comment="screen.procedure.back_off Procedure Screen">Abort</string>
+  <string name="screen.professional.drop_salon" comment="screen.professional.drop_salon Professional Screen">Add new salon</string>
+  <string name="screen.public.nothing_found" comment="screen.public.nothing_found Public Screen">Nothing found</string>
+  <string name="screen.salon.chain_lowercase" comment="screen.salon.chain_lowercase Salon Screen">chain</string>
   <string name="screen.salon.solo_lowercase">individual</string>
   <string name="screen.salon.boss_lowercase">master</string>
-
-  <!-- Schedule Screen -->
-  <string name="screen.schedule.empty_title_alt">Your appointments will be here</string>
-
-  <!-- Search Screen -->
-  <string name="screen.search.nothing_found">Nothing found</string>
-
-  <!-- Feedback Banners (added for sync) -->
-  <string name="widget.feedback_banners.accent">Drop</string>
+  <string name="screen.schedule.empty_title_alt" comment="screen.schedule.empty_title_alt Schedule Screen">Your appointments will be here</string>
+  <string name="screen.search.nothing_found" comment="screen.search.nothing_found Search Screen">Nothing found</string>
+  <string name="widget.feedback_banners.accent" comment="widget.feedback_banners.accent Feedback Banners (added for sync)">Drop</string>
   <string name="widget.feedback_banners.subtitle">Drop us a review\nor your ideas</string>
   <string name="widget.feedback_banners.title">Make us better!</string>
-  <!-- Authentication -->
-  <string name="auth.invalid_access_token">Invalid access token</string>
+  <string name="auth.invalid_access_token" comment="auth.invalid_access_token Authentication">Invalid access token</string>
   <string name="auth.missing_apple_token">Apple token is missing</string>
   <string name="auth.empty_fcm_token">FCM token is empty</string>
   <string name="auth.unsupported_apple_fcm_token">Official Apple token for FCM is not supported</string>
@@ -825,9 +588,7 @@
   <string name="auth.missing_token">Token is missing</string>
   <string name="auth.refresh_token_expired">Refresh token has expired</string>
   <string name="auth.invalid_token">Token is invalid</string>
-
-  <!-- Validation -->
-  <string name="validation.invalid_url">URL cannot be recognized</string>
+  <string name="validation.invalid_url" comment="validation.invalid_url Validation">URL cannot be recognized</string>
   <string name="validation.invalid_query_id">Query identifier is incorrect</string>
   <string name="validation.invalid_json">Bad JSON, please fix it</string>
   <string name="validation.invalid_query">Bad request, please fix it</string>
@@ -864,9 +625,7 @@
   <string name="validation.user_no_customer">User has no customer</string>
   <string name="validation.contacts_not_belong_to_employer">Requested contacts do not belong to the employer</string>
   <string name="validation.language_parse_error">Failed to recognize language</string>
-
-  <!-- Conflicts -->
-  <string name="conflict.appointment_already_canceled">Appointment is already canceled</string>
+  <string name="conflict.appointment_already_canceled" comment="conflict.appointment_already_canceled Conflicts">Appointment is already canceled</string>
   <string name="conflict.duplicate_contact_usage">Database conflict: two different active users are using the same contact</string>
   <string name="conflict.position_in_use">There are masters with this position</string>
   <string name="conflict.customer_not_in_appointment">Customer is not part of this appointment</string>
@@ -883,9 +642,7 @@
   <string name="conflict.offtime_overlap">The created time interval overlaps with existing ones</string>
   <string name="conflict.self_dismissal">Professional is dismissing themselves</string>
   <string name="conflict.employer_contact_already_in_salon">Employer with this contact already exists in the salon</string>
-
-  <!-- Permissions -->
-  <string name="permission.initiator_not_in_salon">Initiator does not work in this salon</string>
+  <string name="permission.initiator_not_in_salon" comment="permission.initiator_not_in_salon Permissions">Initiator does not work in this salon</string>
   <string name="permission.master_not_qualified_for_procedure">Master is not qualified to perform this procedure</string>
   <string name="permission.non_owner_assigning_owner">Non-owner is trying to assign another owner</string>
   <string name="permission.not_participant_in_appointment">Not a participant in the appointment</string>
@@ -905,29 +662,19 @@
   <string name="permission.professional_no_rights">Professional has no rights</string>
   <string name="permission.professional_no_edit_rights">Professional has no editing rights</string>
   <string name="permission.professional_no_view_rights">Professional has no viewing rights</string>
-
-  <!-- Reusable keys for recurring values -->
-  <string name="reusable.notification_position_updated">Hey, {name}, your role has been updated!</string>
-
-  <!-- Notifications -->
-  <string name="notification.procedure_price">{start_time} — price: {price}</string>
+  <string name="reusable.notification_position_updated" comment="reusable.notification_position_updated Reusable keys for recurring values">Hey, {name}, your role has been updated!</string>
+  <string name="notification.procedure_price" comment="notification.procedure_price Notifications">{start_time} — price: {price}</string>
   <string name="notification.new_appointment_body">%1$s %#procedures@ in %#appointment@ %4$s</string>
   <string name="notification.accepted_invitation">You\'re in! Invitation accepted</string>
   <string name="notification.new_appointment_title">New appointment incoming!</string>
   <string name="notification.new_employee">New team member: {name}</string>
   <string name="notification.position_updated">Role updated!</string>
-
-  <!-- Plural forms for notification_new_appointment_body -->
-  <plurals name="notification.new_appointment_procedures">
+  <plurals name="notification.new_appointment_procedures" comment="notification.new_appointment_procedures&#10;Plural forms for notification_new_appointment_body [one] [other]">
     <item quantity="one">%arg procedure</item>
-    <item quantity="few">%arg procedures</item>
-    <item quantity="many">%arg procedures</item>
     <item quantity="other">%arg procedures</item>
   </plurals>
-  <plurals name="notification.new_appointment_appointments">
+  <plurals name="notification.new_appointment_appointments" comment="notification.new_appointment_appointments [one] [other]">
     <item quantity="one">%arg appointment</item>
-    <item quantity="few">%arg appointments</item>
-    <item quantity="many">%arg appointments</item>
     <item quantity="other">%arg appointments</item>
   </plurals>
   <string name="delete">Delete</string>
