@@ -1,104 +1,915 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string name="common_contact_widget_action">Добавить контакт</string>
-  <string name="common.contact.widget.alertTitle">Подтвердите удаление контакта</string>
-  <string name="common.contact.widget.contactsIsEmpty">Методы контакта не указаны</string>
-  <string name="common.contact.widget.linkEdit">Редактирование</string>
-  <string name="common.contact.widget.linkSave">Сохранить</string>
-  <string name="common.contact.widget.title">Контакты</string>
-  <string name="common.notification.screen.book">Сделать прием</string>
-  <string name="common.notification.screen.error_placeholder">Вы еще не получили никаких уведомлений</string>
-  <string name="common.notification.screen.read_all">Читать все</string>
-  <string name="common.notification.screen.title">Уведомления</string>
-  <string name="common.procedure.creatable.alias">Если вы хотите, чтобы этот сервис появился в вашем профиле под своим именем, вы можете предложить свой собственный персонализированный заголовок для него</string>
-  <string name="common.procedure.creatable.click_create">Для сохранения нажмите Создать</string>
-  <string name="common.procedure.creatable.create_button">Создать</string>
-  <string name="common.procedure.creatable.enter_procedure_description">Пожалуйста, опишите детали процедуры. Пример: «Принести полотенце, приезжайте за 10-15 минут раньше, удаляйте ювелирные изделия, информируйте о противопоказаниях»</string>
-  <string name="common.procedure.creatable.missingDuration">Возникла проблема с продолжительностью процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: отсутствует</string>
-  <string name="common.procedure.creatable.missingMaster">Возникла проблема с назначением мастера процедуры. Пожалуйста, попробуйте еще раз. Если проблема повторится, обратитесь в службу поддержки и укажите код ошибки: missingMaster</string>
-  <string name="common.procedure.creatable.missingPrice">Возникла проблема с ценой процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingPrice</string>
-  <string name="common.procedure.creatable.missingServiceId">Возникла проблема с идентификатором сервиса. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingServiceId</string>
-  <string name="common.procedure.creatable.placeholder">Введите название процедуры</string>
-  <string name="common.procedure.creatable.procedure_cost">Пожалуйста, укажите стоимость процедуры</string>
-  <string name="common.procedure.creatable.procedure_duration">Укажите продолжительность процедуры</string>
-  <string name="common.procedure.creatable.select_category">Выберите категорию</string>
-  <string name="common.procedure.creatable.select_procedure">Введите название процедуры или выберите из списка</string>
-  <string name="common.procedure.creatable.select_procedure_info">Выбор существующей опции облегчит вам поиск других</string>
-  <string name="common.procedure.creatable.summaryPlaceholder">Summary</string>
-  <string name="common.procedure.creatable.title">Процедура</string>
-  <string name="common.procedure.screen.alert_title">Вы уверены, что хотите удалить</string>
-  <string name="common.procedure.screen.all_action">Добавить процедуру</string>
-  <string name="common.procedure.screen.not_found">Не найдено</string>
-  <string name="common.procedure.screen.title">Все процедуры</string>
-  <string name="common.procedure.update_creatable.alias_step_placeholder">Псевдоним новой процедуры</string>
-  <string name="common.procedure.update_creatable.enter_new_alias">Введите новый псевдоним процедуры</string>
-  <string name="common.procedure.update_creatable.title">Процедура обновления</string>
-  <string name="common.procedure.widget.action">Добавить процедуру</string>
-  <string name="common.procedure.widget.link">Все</string>
-  <string name="common.procedure.widget.title">Процедуры</string>
-  <string name="common.profile.app_icon_widget.title">Выберите значок приложения</string>
-  <string name="common.profile.danger_zone_widget.delete_hint">Это действие нельзя отменить</string>
-  <string name="common.profile.danger_zone_widget.delete_title">Удалить пользователя</string>
-  <string name="common.profile.danger_zone_widget.logout">Выйти</string>
-  <string name="common.profile.danger_zone_widget.logout_hint">Выйти из аккаунта</string>
-  <string name="common.profile.danger_zone_widget.logout_message_alert">Вы уверены, что хотите выйти?</string>
-  <string name="common.profile.danger_zone_widget.nickname">Ник</string>
-  <string name="common.profile.danger_zone_widget.subscription">Подписка</string>
-  <string name="common.profile.danger_zone_widget.title">Опасная зона</string>
-  <string name="common.profile.danger_zone_widget.user_delete_message_alert">Чтобы подтвердить, введите свой псевдоним в поле ниже</string>
-  <string name="common.profile.danger_zone_widget.user_delete_title_alert">Это действие нельзя отменить. Вы уверены, что хотите удалить?</string>
-  <string name="common.profile.danger_zone_widget.warning">Предупреждение</string>
-  <string name="common.profile.i_am_widget.customer">Покупатель</string>
-  <string name="common.profile.i_am_widget.customer_register">Зарегистрируйтесь, как клиент</string>
-  <string name="common.profile.i_am_widget.professional">Профессиональный</string>
-  <string name="common.profile.i_am_widget.professional_register">Зарегистрируйтесь, как специалист</string>
-  <string name="common.profile.i_am_widget.title">Выбрать режим</string>
-  <string name="common.profile.screen.title">Профиль</string>
-  <string name="common.profile.support_widget.action">Чат Поддержки</string>
-  <string name="common.profile.support_widget.message">Мы здесь, чтобы помочь! Если у вас есть вопросы или вопросы, наша служба поддержки всегда готова помочь вам</string>
-  <string name="common.profile.support_widget.title">У вас есть вопросы? Мы здесь, чтобы помочь!</string>
-  <string name="common.profile.support_widget.unknown">Неизвестен</string>
-  <string name="common.profile.support_widget.userMessage">Здравствуйте, мне нужна помощь! Мой ID: %s</string>
-  <string name="iAm.widget.customer">Покупатель</string>
-  <string name="iAm.widget.customer_register">Зарегистрируйтесь, как клиент</string>
-  <string name="iAm.widget.professional">Профессиональный</string>
-  <string name="iAm.widget.professional_register">Зарегистрируйтесь, как специалист</string>
-  <string name="iAm.widget.title">Выбрать режим</string>
-  <string name="Support.widget.action">Чат Поддержки</string>
-  <string name="Support.widget.message">Мы здесь, чтобы помочь! Если у вас есть вопросы или вопросы, наша служба поддержки всегда готова помочь вам</string>
-  <string name="Support.widget.title">У вас есть вопросы? Мы здесь, чтобы помочь!</string>
-  <string name="Support.widget.unknown">Неизвестен</string>
-  <string name="Support.widget.userMessage">Здравствуйте, мне нужна помощь! Мой ID: %s</string>
-  <string name="customer.appointment.appointment.missing_master">При выборе мастера возникла проблема. Пожалуйста, попробуйте еще раз. Если проблема повторится, обратитесь в службу поддержки и укажите код ошибки: missingMaster</string>
-  <string name="customer.appointment.creatable.click_complete">Для сохранения нажмите \"Завершено\"</string>
-  <string name="customer.appointment.creatable.complete">Завершить бронирование</string>
-  <string name="customer.appointment.creatable.congratulations">Поздравляем, вы успешно создали салон!</string>
-  <string name="customer.appointment.creatable.title">Назначение</string>
-  <string name="customer.appointment.history_screen.empty_description">Нет записей за этот день</string>
-  <string name="customer.appointment.history_screen.title">Назначения</string>
-  <string name="customer.appointment.missing_date_interval">Возникла проблема с выбором даты и времени. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingDateInterval</string>
-  <string name="customer.appointment.missing_procedures">Возникла проблема при выборе процедур. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в службу поддержки и укажите код ошибки: missingProcedures</string>
-  <string name="customer.appointment.widget.today">Сегодня</string>
-  <string name="customer.main.customer.screen.footer_subtitle">Вид</string>
-  <string name="customer.main.customer.screen.footer_title">История</string>
-  <string name="customer.main.customer.screen.map_button">Карта</string>
-  <string name="customer.main.customer.screen.no_salons">Нет магазинов поблизости</string>
-  <string name="customer.main.public.screen.login">Логин</string>
-  <string name="customer.main.public.screen.map_button">Карта</string>
-  <string name="customer.main.public.screen.not_found">Не найдено</string>
-  <string name="customer.map.screen.search_button">Поиск в этом регионе</string>
-  <string name="customer.map.screen.search_button_warning">Необходимо увеличить масштаб для поиска</string>
-  <string name="customer.master.screen.action">Сделать прием</string>
-  <string name="customer.master.screen.all_title">Все мастера</string>
-  <string name="customer.master.screen.invite_link">Пригласить ссылку</string>
-  <string name="customer.master.screen.not_found">Не найдено</string>
-  <string name="customer.master.widget.link">Все</string>
-  <string name="customer.master.widget.title">Мастера</string>
-  <string name="customer.salon.screen.action">Сделать прием</string>
-  <string name="salon.screen.action">Сделать прием</string>
-  <string name="customer.search.screen.not_found">Не найдено</string>
-  <string name="customer.search.screen.placeholder">Искать</string>
-  <string name="customer.timetable.widget.break">Прервать: %s</string>
-  <string name="customer.timetable.widget.dayoff">День выкл</string>
-  <string name="title2">Время работы</string>
-</resources>
+<?xml version="1.0" encoding="UTF-8"?>
+  <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reusable ключи для повторяющихся значений -->
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="not_found">Не найдено</string>
+    <string name="danger_zone_title">Твоя опасная зона</string>
+    <string name="your_appointments">Твои записи</string>
+    <string name="create">Создать</string>
+    <string name="edit">Редактировать</string>
+    <string name="map">Карта</string>
+    <!-- Аутентификация -->
+    <string name="auth.invalid_access_token">Неверный токен доступа</string>
+    <string name="auth.missing_apple_token">Apple токен отсутствует</string>
+    <string name="auth.empty_fcm_token">FCM токен пуст</string>
+    <string name="auth.unsupported_apple_fcm_token">Официальный Apple токен для FCM не поддерживается</string>
+    <string name="auth.login_as_customer_failed">Не удалось войти под клиентом</string>
+    <string name="auth.login_as_professional_failed">Не удалось войти под профессионалом</string>
+    <string name="auth.missing_token">Токен отсутствует</string>
+    <string name="auth.refresh_token_expired">Рефреш токен уже истек</string>
+    <string name="auth.invalid_token">Токен недействителен</string>
+
+    <!-- Валидация -->
+    <string name="validation.invalid_url">URL не удается распознать</string>
+    <string name="validation.invalid_query_id">Идентификатор в запросе некорректен</string>
+    <string name="validation.invalid_json">Плохой JSON, исправь</string>
+    <string name="validation.invalid_query">Плохой запрос, исправь</string>
+    <string name="validation.time_parse_error">Не удалось распарсить время</string>
+    <string name="validation.missing_employee_creation_date">Выдаём зарплату сотруднику без даты создания</string>
+    <string name="validation.contacts_not_belong_to_customer">Запрашиваемые контакты не принадлежат клиенту</string>
+    <string name="validation.inactive_customer">Неактивный клиент, который не посещал салоны</string>
+    <string name="validation.owner_not_found">Владелец не найден</string>
+    <string name="validation.appointment_not_found">Запись на прием не найдена</string>
+    <string name="validation.device_not_found">Устройство не найдено</string>
+    <string name="validation.record_not_found">Запись не найдена</string>
+    <string name="validation.customer_not_found">Клиент не найден</string>
+    <string name="validation.offtime_not_found">Отсутствие времени не найдено</string>
+    <string name="validation.position_not_found">Позиция не найдена</string>
+    <string name="validation.procedure_not_found">Процедура не найдена</string>
+    <string name="validation.salon_not_found">Салон не найден</string>
+    <string name="validation.service_not_found">Сервис не найден</string>
+    <string name="validation.employer_not_found">Работодатель не найден</string>
+    <string name="validation.time_interval_parse_error">Не удалось распарсить временной интервал</string>
+    <string name="validation.no_data">Нет данных</string>
+    <string name="validation.no_employers_or_salons_found">Не найдено ни работодателей, ни салонов</string>
+    <string name="validation.missing_salary_data">Ничего не прислали. Хоть один пункт по зарплате отправьте!</string>
+    <string name="validation.invalid_salary_dates">Некорректные даты выдачи зарплаты</string>
+    <string name="validation.invalid_timezone_id">Некорректный идентификатор часового пояса</string>
+    <string name="validation.employee_not_assigned">Сотрудник нигде не работает</string>
+    <string name="validation.permission_set_too_large">Набор прав слишком большой</string>
+    <string name="validation.invalid_image_type">Тип не является изображением</string>
+    <string name="validation.offtime_no_owner">У offtime нет владельца</string>
+    <string name="validation.offtime_no_salon">Для данного интервала времени не найден салон</string>
+    <string name="validation.offtime_no_employer">Для данного интервала времени не найден работодатель</string>
+    <string name="validation.cashbox_no_creation_date">У кассового аппарата нет даты создания</string>
+    <string name="validation.salary_currency_conflict">В зарплате возникла неопределённость из-за разных валют в операциях</string>
+    <string name="validation.operation_no_creation_date">У операции нет даты создания</string>
+    <string name="validation.user_no_customer">У пользователя нет клиента</string>
+    <string name="validation.contacts_not_belong_to_employer">Запрашиваемые контакты не принадлежат работодателю</string>
+    <string name="validation.language_parse_error">Не удалось распознать язык</string>
+
+    <!-- Конфликты -->
+    <string name="conflict.appointment_already_canceled">Запись уже отменена</string>
+    <string name="conflict.duplicate_contact_usage">В базе данных конфликт: два разных активных пользователя используют один контакт</string>
+    <string name="conflict.position_in_use">Есть мастера с данной должностью</string>
+    <string name="conflict.customer_not_in_appointment">Клиент не участвует в этой записи</string>
+    <string name="conflict.contact_already_exists_for_customer">Контакт уже существует у этого клиента</string>
+    <string name="conflict.contact_already_exists_for_user">Контакт уже существует у этого пользователя</string>
+    <string name="conflict.contact_exists_for_another_user">Контакт уже существует у другого пользователя</string>
+    <string name="conflict.contact_exists_for_customer_in_salon">Контакт уже существует у клиента в этом салоне</string>
+    <string name="conflict.contact_exists_for_employer">Контакт уже существует у этого работодателя</string>
+    <string name="conflict.schedule_overlap">Новое расписание пересекается со старым</string>
+    <string name="conflict.link_already_used">По ссылке уже переходили</string>
+    <string name="conflict.professional_already_in_salon">Профессионал уже работает в этом салоне</string>
+    <string name="conflict.procedure_already_exists">Процедура уже существует</string>
+    <string name="conflict.self_appointment">Попытка записаться к самому себе</string>
+    <string name="conflict.offtime_overlap">Создаваемый интервал времени пересекается с уже существующими</string>
+    <string name="conflict.self_dismissal">Профессионал увольняет себя</string>
+    <string name="conflict.employer_contact_already_in_salon">Работодатель с этим контактом уже существует в салоне</string>
+
+    <!-- Разрешения -->
+    <string name="permission.initiator_not_in_salon">Инициатор не работает в этом салоне</string>
+    <string name="permission.master_not_qualified_for_procedure">Мастер не обладает квалификацией для выполнения этой процедуры</string>
+    <string name="permission.non_owner_assigning_owner">Не владелец пытается назначить другого владельца</string>
+    <string name="permission.not_participant_in_appointment">Не является участником записи</string>
+    <string name="permission.no_delete_access">Нет возможности удалить</string>
+    <string name="permission.no_activation_access">Нет доступа для активации</string>
+    <string name="permission.no_deactivation_access">Нет доступа для деактивации</string>
+    <string name="permission.no_edit_access">Нет доступа для изменения</string>
+    <string name="permission.no_update_access">Нет доступа для обновления</string>
+    <string name="permission.no_view_access">Нет доступа для просмотра</string>
+    <string name="permission.no_create_access">Нет доступа для создания</string>
+    <string name="permission.no_schedule_access">Нет доступа к расписанию</string>
+    <string name="permission.no_master_rights_for_creation">Нет прав мастера для создания</string>
+    <string name="permission.no_info_access">Нет прав для получения информации</string>
+    <string name="permission.no_salary_payment_rights">Нет прав на выплату зарплаты</string>
+    <string name="permission.professional_not_in_appointment_and_no_rights">Профессионал не участвует в записи и не имеет прав</string>
+    <string name="permission.attempt_to_delete_owner_position">Пытаются удалить позицию владельца</string>
+    <string name="permission.professional_no_rights">У профессионала нет прав</string>
+    <string name="permission.professional_no_edit_rights">У профессионала нет прав на внесение изменений</string>
+    <string name="permission.professional_no_view_rights">У профессионала нет прав на просмотр</string>
+
+    <!-- Reusable ключи для повторяющихся значений -->
+    <string name="reusable.notification_position_updated">Эй, {name}, твоя роль обновлена!</string>
+
+    <!-- Уведомления -->
+    <string name="notification.procedure_price">{start_time} — цена: {price}</string>
+    <string name="notification.new_appointment_body">%1$s %#procedures@ в %#appointment@ %4$s</string>
+    <string name="notification.accepted_invitation">Ты в деле! Приглашение принято</string>
+    <string name="notification.new_appointment_title">Новая запись на подходе!</string>
+    <string name="notification.new_employee">Новый человечек в команде: {name}</string>
+    <string name="notification.position_updated">Роль обновлена!</string>
+
+    <!-- Plural-формы для notification_new_appointment_body -->
+    <plurals name="notification.new_appointment_procedures">
+      <item quantity="one">%arg процедура</item>
+      <item quantity="few">%arg процедуры</item>
+      <item quantity="many">%arg процедур</item>
+      <item quantity="other">%arg процедуры</item>
+    </plurals>
+    <plurals name="notification.new_appointment_appointments">
+      <item quantity="one">%arg запись</item>
+      <item quantity="few">%arg записи</item>
+      <item quantity="many">%arg записей</item>
+      <item quantity="other">%arg записи</item>
+    </plurals>
+    <!-- Экран недельного расписания (продолжение) -->
+
+    <string name="screen.week_schedule.to">ВРЕМЯ ЗАКРЫТИЯ</string>
+
+    <!-- Экран приветствия -->
+    <string name="screen.welcome.description">Простой инструмент для твоего бизнеса</string>
+    <string name="screen.welcome.title">Привет, добро пожаловать в</string>
+
+    <!-- Экран редактирования адреса -->
+
+
+    <!-- Экран клиентов -->
+
+    <!-- Экран выбора даты -->
+    <string name="screen.date_selector.tweak_date">Поменяй</string>
+
+    <!-- Экран полного расписания -->
+
+      <!-- Редактирование адреса -->
+      <string name="screen.address_edit.current_address">Твоё текущее местоположение</string>
+      <string name="screen.address_edit.invalid_address">Твой адрес немного сбился</string>
+      <string name="screen.address_edit.invalid_address_message">Выбери точное местечко, чтобы продолжить</string>
+      <string name="screen.address_edit.ok">Круто!</string>
+      <string name="screen.address_edit.unable_address">Не могу поймать твой адрес — попробуй ещё разок?</string>
+      <string name="screen.address_edit.address_slightly_off">Адрес немного сбился</string>
+      <string name="screen.address_edit.find_sharp_spot">Давай найдём точное местечко для тебя</string>
+      <string name="screen.address_edit.retry_address_grab">Не могу поймать твой адрес — ещё разок?</string>
+
+      <!-- Виджет адреса -->
+      <string name="widget.address.action">Кидай свой адрес</string>
+      <string name="widget.address.direction">Проложим путь</string>
+      <string name="widget.address.navigate">Погнали!</string>
+      <string name="widget.address.placeholder">Введи свой адрес</string>
+      <string name="widget.address.title">Твой адресок</string>
+
+      <!-- Виджет иконки приложения -->
+      <string name="widget.app_icon.title">Выбери иконку приложения</string>
+
+      <!-- Виджет записи -->
+      <string name="widget.appointment.today">Сегодняшний день</string>
+      <string name="widget.appointment_cell.declined_by_customer">Клиент отказался</string>
+      <string name="widget.appointment_cell.need_your_action">Твой ход!</string>
+      <string name="widget.appointment_status.canceled">Отменили</string>
+      <string name="widget.appointment_status.confirm">Подтвердить</string>
+      <string name="widget.appointment_status.confirmed">Подтверждено</string>
+      <string name="widget.appointment_status.expired">Время истекло</string>
+      <string name="widget.appointment_status.reject">Отказаться</string>
+      <string name="widget.appointment_status.waiting">Ждём ответа</string>
+
+      <!-- Виджет подтверждения -->
+      <string name="widget.approve.accept">Подтверди заказ</string>
+      <string name="widget.approve.delete">Удали запись</string>
+      <string name="widget.approve.error_title">Что-то сломалось</string>
+      <string name="widget.approve.expired_title">Не успел подтвердить запись</string>
+      <string name="widget.approve.left_to_accept">Осталось подтвердить</string>
+
+      <!-- Создание записи -->
+      <string name="creatable.appt.afternoon">Дневное время</string>
+      <string name="creatable.appt.appointment_warning">**Перед процедурой полезно знать:**</string>
+      <string name="creatable.appt.check_master">Ищу твоего мастера — минутку!</string>
+      <string name="creatable.appt.check_procedure">Проверяю твою процедуру — скоро будет</string>
+      <string name="creatable.appt.choose_master">Выбери своего мастера</string>
+      <string name="creatable.appt.choose_customer">Кто твой клиент?</string>
+      <string name="creatable.appt.click_complete">Жми "Завершить", чтобы всё зафиксировать</string>
+      <string name="creatable.appt.complete">Завершить</string>
+      <string name="creatable.appt.congratulations">Твоя запись готова!</string>
+      <string name="creatable.appt.day">День</string>
+      <string name="creatable.appt.day_unavailable">Этот день уже занят</string>
+      <string name="creatable.appt.evening">Вечерок</string>
+      <string name="creatable.appt.master_found">Твой мастер: %s</string>
+      <string name="creatable.appt.master_found_simple">Мастер на месте</string>
+      <string name="creatable.appt.master_not_found">Пока не нашёл твоего мастера</string>
+      <string name="creatable.appt.morning">Утро</string>
+      <string name="creatable.appt.night">Ночь</string>
+      <string name="creatable.appt.procedure_found_simple">Твоя процедура на месте</string>
+      <string name="creatable.appt.procedure_not_found">Процедура пока не нашлась</string>
+      <string name="creatable.appt.select_procedure">Выбери свою процедуру</string>
+      <string name="creatable.appt.select_time">Назначь время</string>
+      <string name="creatable.appt.sign_in_description">**Войди**, чтобы завершить запись</string>
+      <string name="creatable.appt.time">Время</string>
+      <string name="creatable.appt.time_slots_absent">Свободных окошек нет</string>
+      <string name="creatable.appt.title">Твоя новая запись</string>
+
+      <!-- Подвал записи -->
+      <string name="widget.appt_footer.subtitle">Открывай</string>
+      <string name="widget.appt_footer.title">Твоя история</string>
+
+      <!-- Экран записи -->
+      <string name="screen.appt.accept">Подтвердить запись</string>
+      <string name="screen.appt.delete">Удалить запись</string>
+      <string name="screen.appt.expired_title">Время на подтверждение вышло</string>
+      <string name="screen.appt.left_to_accept">Осталось сказать "да"</string>
+
+      <!-- Создание авторизации -->
+      <string name="creatable.auth.enter_name">Как тебя зовут?</string>
+      <string name="creatable.auth.later_logo">Фото не готово? Добавишь в профиле позже</string>
+      <string name="creatable.auth.placeholder">Твоё имя</string>
+      <string name="creatable.auth.privacy">Жми "Продолжить" — и ты согласен [Политикой конфиденциальности](%1$s) и [Пользовательским соглашением](%2$s)</string>
+      <string name="creatable.auth.title">Заходи к нам</string>
+      <string name="creatable.auth.upload_logo">Кидай свою аватарку</string>
+      <string name="creatable.auth.welcome_message">**Войди или зарегистрируйся**, чтобы всё работало на любом устройстве</string>
+      <string name="creatable.auth.who_are_you">Ты мастер или клиент?</string>
+
+      <!-- Экран аутентификации -->
+      <string name="screen.auth.title">Твой вход</string>
+
+      <!-- Баннеры авторизации -->
+      <string name="widget.banners_auth.accent">Зарегистрируйся</string>
+      <string name="widget.banners_auth.subtitle">Чтобы не потерять свои записи — давай зарегистрируемся</string>
+      <string name="widget.banners_auth.title">Ты ещё не с нами</string>
+
+      <!-- Баннеры обратной связи -->
+      <string name="widget.banners_feedback.accent">Отмена</string>
+      <string name="widget.banners_feedback.subtitle">Оставь отзыв или свои мысли</string>
+      <string name="widget.banners_feedback.title">Сделай нас лучше!</string>
+      <string name="widget.feedback_banners.accent">Кидай</string>
+      <string name="widget.feedback_banners.subtitle">Кидай нам отзыв\nили свои идеи</string>
+      <string name="widget.feedback_banners.title">Сделай нас лучше!</string>
+
+      <!-- Баннеры подписки -->
+      <string name="widget.banners_subscription.subtitle">Подключай подписку</string>
+      <string name="widget.banners_subscription.title">%1$s\nвсего за %2$s 💫</string>
+
+      <!-- Лист календаря -->
+      <string name="sheet.calendar.today">Сегодняшний день</string>
+
+      <!-- Создание верификации клиента -->
+      <string name="creatable.client_verification.confirm_communication">Подтверди один из способов связи, чтобы пройти проверку</string>
+      <string name="creatable.client_verification.continue_button">Давай дальше</string>
+      <string name="creatable.client_verification.placeholder">Добавь свой контакт</string>
+      <string name="creatable.client_verification.response">Этот контакт не совпадает с прошлым</string>
+      <string name="creatable.client_verification.successful_response">Красота! Салон теперь в избранном, а твои заказы синхронизированы</string>
+      <string name="creatable.client_verification.title">Проверяем тебя</string>
+
+      <!-- Создание клиента -->
+      <string name="creatable.client.add_contact">Добавь контакт</string>
+      <string name="creatable.client.enter_client_name">Как зовут клиента?</string>
+      <string name="creatable.client.placeholder">Имя клиента</string>
+      <string name="creatable.client.title">Новый клиент</string>
+      <string name="creatable.customer.add_contact">Добавить контакт</string>
+      <string name="creatable.customer.continue_button">Продолжить</string>
+      <string name="creatable.customer.invitation_link">"Есть ссылка-приглашение? Пожалуйста, напиши сюда"</string>
+      <string name="creatable.customer.link_is_not_valid">"Ссылка не работает. Проверь ещё раз"</string>
+      <string name="creatable.customer.registration_completed">"Есть ссылка-приглашение? По ней можно пройти после регистрации"</string>
+      <string name="creatable.customer.title">Добавление клиента</string>
+
+      <!-- Экран клиентов -->
+      <string name="screen.clients.add_client">Добавь клиентов</string>
+      <string name="screen.clients.title">Твои клиенты</string>
+      <string name="screen.clients.drop_clients">Добавит клиентов</string>
+
+      <!-- Виджет клиентов -->
+      <string name="widget.clients.action">Добавь клиента</string>
+      <string name="widget.clients.link">Посмотреть всех</string>
+      <string name="widget.clients.title">Твои клиенты</string>
+      <string name="widget.customer.all_title">Все твои клиенты</string>
+      <string name="widget.customer.invite">Пригласить клиента</string>
+      <string name="widget.customer.title">Клиент</string>
+
+      <!-- Лист клиентов -->
+      <string name="sheet.customers.create_client">Добавить нового клиента</string>
+
+      <!-- Обновление общего профиля -->
+      <string name="creatable.common_profile_update.enter_name">Придумай новое имя</string>
+      <string name="creatable.common_profile_update.placeholder">Твоё имя</string>
+      <string name="creatable.common_profile_update.title">Обнови свой профиль</string>
+      <string name="creatable.common_profile_update.upload_avatar">Кидай новый аватар</string>
+
+      <!-- Общее -->
+      <string name="widget.common.tomorrow">Завтрашний день</string>
+
+      <!-- Компоненты -->
+      <string name="widget.component.address_input_field_enter_address">Добавь свой адрес</string>
+      <string name="widget.component.alert_client_confirmation">Ты перешел по ссылке для синхронизации истории заказов. Салон связанный с этой ссылкой попадёт в избранное — подтверждаешь?</string>
+      <string name="widget.component.alert_confirmation">Подтверди</string>
+      <string name="widget.component.alert_congratulations">Красота!</string>
+      <string name="widget.component.alert_error">Ой, ошибка</string>
+      <string name="widget.component.alert_incomplete_address">Адрес недописан</string>
+      <string name="widget.component.alert_incomplete_address_message">Давай полный адрес, чтобы продолжить</string>
+      <string name="widget.component.alert_master_confirmation">Ты перешел по ссылке, которая добавляет тебя, как сотрудника к салону. Подтвердишь — сможешь там творить. Вперед?</string>
+      <string name="widget.component.alert_ok">Понял!</string>
+      <string name="enum.component.category_brows">Брови</string>
+      <string name="enum.component.category_cosmetology">Косметология</string>
+      <string name="enum.component.category_depilation">Депиляция</string>
+      <string name="enum.component.category_epilation">Эпиляция</string>
+      <string name="enum.component.category_hairdressing">Волосы</string>
+      <string name="enum.component.category_lashes">Ресницы</string>
+      <string name="enum.component.category_makeup">Макияж</string>
+      <string name="enum.component.category_massage">Массаж</string>
+      <string name="enum.component.category_nails">Ногти</string>
+      <string name="enum.component.category_other">Разное</string>
+      <string name="enum.component.category_piercing">Пирсинг</string>
+      <string name="enum.component.category_spa">Спа</string>
+      <string name="enum.component.category_tattoo">Тату</string>
+      <string name="widget.component.currency_text_field_placeholder">Введи сумму</string>
+      <string name="widget.component.day_view_today">Сегодняшний день</string>
+      <string name="widget.component.edit_menu_copy_button">Скопировать</string>
+      <string name="widget.component.employee_schedule_cell_add_break">Добавить перерывчик</string>
+      <string name="widget.component.employee_schedule_cell_edit_schedule">Настроить график</string>
+      <string name="widget.component.employee_schedule_cell_weekend_toggle">Сделать выходным</string>
+      <string name="widget.component.employee_schedule_side_cell_cycled_schedule">Сменный график</string>
+      <string name="widget.component.employee_schedule_side_cell_day_schedule">Ежедневное расписание</string>
+      <string name="widget.component.employee_schedule_side_cell_edit_schedule">Настроить график</string>
+      <string name="widget.component.employee_schedule_side_cell_edit_weekend">Настрока отпуска</string>
+      <string name="widget.component.employee_schedule_side_cell_hide_employee">Скрыть сотрудника</string>
+      <string name="widget.component.employee_schedule_side_cell_week_schedule">Шаблон на неделю</string>
+      <string name="widget.component.input_view_for_step_add">Добавь</string>
+      <string name="widget.component.input_view_for_step_customer">Клиент</string>
+      <string name="widget.component.input_view_for_step_email">Почта</string>
+      <string name="widget.component.input_view_for_step_instagram">Instagram</string>
+      <string name="widget.component.input_view_for_step_master">Мастер</string>
+      <string name="widget.component.input_view_for_step_message">Сообщение</string>
+      <string name="widget.component.input_view_for_step_phone">Телефон</string>
+      <string name="widget.component.input_view_for_step_select">Выбери</string>
+      <string name="widget.component.input_view_for_step_skip">Пропусти</string>
+      <string name="widget.component.input_view_for_step_telegram">Telegram</string>
+      <string name="widget.component.input_view_for_step_whatsapp">Whatsapp</string>
+      <string name="widget.component.independent_unknown">Неизвестно</string>
+      <string name="widget.component.phone_field_placeholder">Введи номер</string>
+      <string name="widget.component.routes_picker_message">Выбери приложение, чтобы проложить путь</string>
+      <string name="widget.component.routes_picker_select_app">Выбери приложение</string>
+      <string name="widget.component.salon_schedule_side_cell_cycled_schedule">Сменный график</string>
+      <string name="widget.component.salon_schedule_side_cell_day_schedule">Ежедневное расписание</string>
+      <string name="widget.component.salon_schedule_side_cell_edit_schedule">Настрой график</string>
+      <string name="widget.component.salon_schedule_side_cell_week_schedule">Шаблон на неделю</string>
+      <string name="widget.component.search_bar_field_placeholder">Поиск…</string>
+      <string name="widget.component.service_input_field_enter_address">Введи название услуги</string>
+      <string name="widget.component.shift_schedule_selector_off_days">Выходные:</string>
+      <string name="widget.component.shift_schedule_selector_work_days">Рабочие дни:</string>
+      <string name="widget.component.text_input_field_email">input@mail.com</string>
+      <string name="widget.component.text_input_field_identifier_placeholder">твой_ник</string>
+      <string name="widget.component.text_input_field_link">https://maestri.me/</string>
+      <string name="widget.component.text_message_skip_text">Пропустить</string>
+
+      <!-- Создание контакта -->
+      <string name="creatable.contact.contact_type">Выбери предпочтительный способ связи</string>
+      <string name="creatable.contact.email">Пожалуйста, напиши свою почту</string>
+      <string name="creatable.contact.email_later">Добавить адресс почты позже в настройках</string>
+      <string name="creatable.contact.instagram">Пожалуйста, напиши свой Instagram</string>
+      <string name="creatable.contact.instagram_later">Добавть Instagram в настройках позже</string>
+      <string name="creatable.contact.phone_number">Пожалуйста, напиши свой номер</string>
+      <string name="creatable.contact.phone_number_later">Добавить номер позже в настройках</string>
+      <string name="creatable.contact.telegram_number">Пожалуйста, напиши свой Telegram</string>
+      <string name="creatable.contact.telegram_number_later">Добавить Telegram позже в настройках</string>
+      <string name="creatable.contact.title">Контакт</string>
+      <string name="creatable.contact.whatsapp_number">Пожалуйста, напиши свой WhatsApp</string>
+      <string name="creatable.contact.whatsapp_number_later">Добавить WhatsApp позже в настройках</string>
+      <string name="creatable.contact.select_one_required">Выбери хотя бы один контакт</string>
+      <string name="creatable.contact.select_count">Выбрать %d</string>
+      <string name="creatable.contact.title_alt">Твои контакты</string>
+
+      <!-- Экран контактов -->
+      <string name="screen.contact.select_number">Выбери номер</string>
+      <string name="screen.contact.title">Твои контакты</string>
+      <string name="screen.contact.back_off">Отбой</string>
+
+      <!-- Виджет ячейки контакта -->
+      <string name="widget.contact_cell.select_number">Выбери номер</string>
+
+      <!-- Виджет контактов -->
+      <string name="widget.contacts.alert_title">Точно хочешь убрать этот контакт?</string>
+      <string name="widget.contacts.contacts_is_empty">Контактов пока нет</string>
+      <string name="widget.contacts.title">Твои контакты</string>
+      <string name="widget.contacts.button">Добавить новый контакт</string>
+
+      <!-- Ошибки создания -->
+      <string name="error.creatable_position.missing_permissions">Произошла ошибка при установке прав доступа. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingPermissions</string>
+      <string name="error.creatable_position.missing_salary">Произошла ошибка при установке зарплаты. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingSalary</string>
+      <string name="error.creatable_position.missing_title">Произошла ошибка с названием должности. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingTitle</string>
+
+      <!-- Экран создания -->
+      <string name="screen.creation.close">Закрыть</string>
+
+      <!-- Создание клиента -->
+      <string name="creatable.cycled_schedule.make_schedule">Настроить расписание рабочих дней</string>
+      <string name="creatable.cycled_schedule.shift_schedule">Рабочие дни: %1$s, Выходные: %2$s</string>
+      <string name="creatable.cycled_schedule.title">Создание расписание</string>
+
+      <!-- Опасная зона -->
+      <string name="widget.danger_zone.delete_hint">Действие нельзя будет отменить</string>
+      <string name="widget.danger_zone.delete_title">Удалить свой аккаунт</string>
+      <string name="widget.danger_zone.logout">Выйди</string>
+      <string name="widget.danger_zone.logout_hint">Выйти из учетной записи</string>
+      <string name="widget.danger_zone.logout_message_alert">Точно хочешь выйти?</string>
+      <string name="widget.danger_zone.nickname">Твой никнейм</string>
+      <string name="widget.danger_zone.subscription">Твоя подписка</string>
+      <string name="widget.danger_zone.user_delete_message_alert">Введи свой никнейм для подтверждения</string>
+      <string name="widget.danger_zone.user_delete_title_alert">Это действия нельзя будет отменить. Точно хочешь это сделать?</string>
+      <string name="widget.danger_zone.warning">Осторожно!</string>
+
+      <!-- Создание дневного расписания -->
+      <string name="creatable.day_schedule.configure_schedule">Установить время для настройки расписания</string>
+      <string name="creatable.day_schedule.select_first_day">Выбери первый рабочий день</string>
+      <string name="creatable.day_schedule.set_daily_schedule">Настройка ежедневного расписания</string>
+      <string name="creatable.day_schedule.title">Создание расписание</string>
+
+      <!-- Виджет описания -->
+      <string name="widget.description.hide">Скрыть</string>
+      <string name="widget.description.show_more">Покажи больше</string>
+      <string name="widget.description.title">Описание</string>
+
+      <!-- Карточка расписания сотрудника -->
+      <string name="widget.employee_schedule_card.breaks">ПЕРЕРЫВ</string>
+      <string name="widget.employee_schedule_card.day_off">ВЫХОДНОЙ</string>
+      <string name="widget.employee_schedule_card.work_time">ВРЕМЯ РАБОТЫ</string>
+
+      <!-- Ошибки записи -->
+      <string name="error.appointment.missing_date_interval">Произошла ошибка при выборе даты и времени. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingDateInterval</string>
+      <string name="error.appointment.missing_master">Произошла ошибка при выборе мастера. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingMaster</string>
+      <string name="error.appointment.missing_procedures">Произошла ошибка при выборе процедур. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingProcedures</string>
+
+      <!-- Ошибки клиента -->
+      <string name="error.client.missing_client_contacts">Контакты клиента потерялись. Пожалуйста, попробуй еще или пиши в поддержку с кодом: missingClientContacts</string>
+      <string name="error.client.missing_client_name">Имя клиента пропало. Пожалуйста, попробуй еще или в поддержку с кодом: missingClientName</string>
+
+      <!-- Ошибки по умолчанию -->
+      <string name="error.default.failed_to_load_image">Не удалось загрузить изображение</string>
+      <string name="error.default.register_as_client">Для обработки ссылки необходимо зарегистрироваться как клиент</string>
+      <string name="error.default.register_as_master">Для обработки ссылки необходимо зарегистрироваться как мастер</string>
+      <string name="error.default.unknown_error">Неизвестная ошибка</string>
+
+      <!-- HTTP ошибки -->
+      <string name="error.http.bad_gateway">502 Плохой шлюз: Сервер, действующий как шлюз или прокси, получил недопустимый ответ от вышестоящего сервера.</string>
+      <string name="error.http.bad_request">400 Неправильный запрос: Сервер не понимает запрос из-за неверного синтаксиса.</string>
+      <string name="error.http.conflict">409 Конфликт: Запрос не может быть обработан из-за конфликта в запросе, например, конфликта редактирования между несколькими одновременными обновлениями.</string>
+      <string name="error.http.error">Ой ошибочка!</string>
+      <string name="error.http.forbidden">403 Запрещено: У сервера есть понимание запроса, но он отказывается его выполнить. Обычно это связано с отсутствием прав доступа.</string>
+      <string name="error.http.gateway_timeout">504 Шлюз не отвечает: Сервер, действующий как шлюз или прокси, не получил своевременный ответ от вышестоящего сервера.</string>
+      <string name="error.http.internal_server_error">500 Внутренняя ошибка сервера: Общая ошибка сервера. Обычно означает, что что-то пошло не так на стороне сервера.</string>
+      <string name="error.http.method_not_allowed">405 Метод не разрешен: Метод, указанный в запросе, запрещен для данного ресурса.</string>
+      <string name="error.http.not_found">404 Не найдено: Сервер не может найти запрашиваемый ресурс. Это самая распространенная ошибка, указывающая на несуществующую страницу.</string>
+      <string name="error.http.service_unavailable">503 Сервис недоступен: Сервер не может обработать запрос из-за временной перегрузки или обслуживания.</string>
+      <string name="error.http.unauthorized">401 Неавторизован: Требуется аутентификация. Пользователь должен залогиниться для доступа.</string>
+
+      <!-- Ошибки процедуры -->
+      <string name="error.procedure.missing_duration">Произошла ошибка с длительностью процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingDuration</string>
+      <string name="error.procedure.missing_master">Произошла ошибка при назначении мастера для процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingMaster</string>
+      <string name="error.procedure.missing_price">Произошла ошибка с ценой процедуры. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingPrice</string>
+      <string name="error.procedure.missing_service_id">Произошла ошибка с идентификатором услуги. Пожалуйста, попробуйте еще раз. Если проблема не устранена, обратитесь в поддержку и укажите код ошибки: missingServiceId</string>
+
+      <!-- Ошибки салона -->
+      <string name="error.salon.missing_address">Произошла ошибка с адресом салона. Попробуй ещё или пиши в поддержку с кодом: missingAddress</string>
+      <string name="error.salon.missing_locale">Произошла ошибка с локализацией салона. Попробуй ещё или в поддержку с кодом: missingLocale</string>
+      <string name="error.salon.missing_name">Произошла ошибка с названием салона. Попробуй ещё или пиши в поддержку с кодом: missingName</string>
+      <string name="error.salon.missing_timetable">Расписание салона пропало. Попробуй ещё или пиши в поддержку с кодом: missingTimetable</string>
+      <string name="error.salon.missing_time_zone">Произошла ошибка с часовым поясом салона. Попробуй ещё или пиши в поддержку с кодом: missingTimeZone</string>
+      <string name="error.salon.missing_type">Произошла ошибка с типом салона. Попробуй ещё или пиши в поддержку с кодом: missingType</string>
+
+      <!-- Ошибки услуги -->
+      <string name="error.service.missing_category">Возникла проблема с категорией услуг. Попробуй ещё или пиши в поддержку с кодом: missingCategory</string>
+      <string name="error.service.missing_description">Произошла ошибка с описанием услуги. Попробуй ещё или пиши в поддержку с кодом: missingDescription</string>
+      <string name="error.service.missing_title">Произошла ошибка с названием услуги. Попробуй ещё или пиши в поддержку с кодом: missingTitle</string>
+
+      <!-- Экран полного расписания -->
+      <string name="screen.full_schedule.salon_schedule">График твоего салона</string>
+      <string name="screen.full_schedule.select_masters">Выбери мастеров</string>
+      <string name="screen.full_schedule.back_off">Отбой</string>
+      <string name="screen.full_schedule.tweak_slot">Поменяй %d</string>
+
+      <!-- Виджет полной процедуры -->
+      <string name="widget.full_procedure.title">Выбери мастера</string>
+
+      <!-- Виджет "Кто я" -->
+      <string name="widget.i_am.customer">Клиент</string>
+      <string name="widget.i_am.customer_register">Зарегистрируйся как клиент</string>
+      <string name="widget.i_am.professional">Мастер</string>
+      <string name="widget.i_am.professional_register">Зарегистрируйся как мастер</string>
+      <string name="widget.i_am.title">Кто ты?</string>
+
+      <!-- Экран списка записей -->
+      <string name="screen.list_appointments.switch_button">Дневник</string>
+
+      <!-- Главный экран клиента -->
+      <string name="screen.main.title">Главная</string>
+      <string name="screen.main_customer.favorites">Избранное</string>
+      <string name="screen.main_customer.footer_subtitle">Открыть</string>
+      <string name="screen.main_customer.footer_title">История</string>
+      <string name="screen.main_customer.no_appointments">У тебя пока нет записей</string>
+      <string name="screen.main_customer.no_favorites">Избранного пока нет</string>
+      <string name="screen.main_customer.no_salons">Нет салонов поблизости</string>
+      <string name="screen.main_customer.salons">Салоны</string>
+
+      <!-- Экран карты -->
+      <string name="screen.map.search_button">Искать в этом районе</string>
+      <string name="screen.map.search_button_warning">Нужно увеличить масштаб для поиска</string>
+
+      <!-- Опасная зона мастера -->
+      <string name="widget.master_danger_zone.cancel_hint">Мастер не сможет присоединиться по ссылке</string>
+      <string name="widget.master_danger_zone.cancel_message_alert">Мастер не сможет присоединиться по ссылке</string>
+      <string name="widget.master_danger_zone.cancel_title">Отменить приглашение</string>
+      <string name="widget.master_danger_zone.cancel_title_alert">Точно хочешь отменить?</string>
+      <string name="widget.master_danger_zone.deactivate">Выключить</string>
+      <string name="widget.master_danger_zone.deactivate_title">Приостановить работу мастера</string>
+      <string name="widget.master_danger_zone.fire">Уволить</string>
+      <string name="widget.master_danger_zone.fire_an_employee">Уволить сотрудника</string>
+      <string name="widget.master_danger_zone.master_deactivate_message">Приостанови работу мастера, чтобы его скрыть из доступных</string>
+      <string name="widget.master_danger_zone.master_deactivate_message_alert">Точно хочешь приостановить работу мастера?</string>
+      <string name="widget.master_danger_zone.master_delete_message_alert">Введи имя мастера для подтверждения</string>
+      <string name="widget.master_danger_zone.master_delete_title_alert">Обратно не вернёшь. Уверен?</string>
+
+      <!-- Мастера -->
+      <string name="widget.master.all_action">Пригласить мастера</string>
+      <string name="widget.master.all_title">Все мастера</string>
+
+      <!-- Создание мастера -->
+      <string name="creatable.master.add_contact">Добавить контакт</string>
+      <string name="creatable.master.choose_position">Выбери должность</string>
+      <string name="creatable.master.description_placeholder">Описание</string>
+      <string name="creatable.master.enter_master_description">Пожалуйста, дай характеристику мастеру</string>
+      <string name="creatable.master.invitation_link">Отправить ссылку-приглашение</string>
+      <string name="creatable.master.more_contact">Хочешь ещё один способ связи?</string>
+      <string name="creatable.master.setup_schedule">Ты можешь настроить график работы приглашенного мастера</string>
+      <string name="creatable.master.successfully_created">Круто! Ты пригласил нового мастера!</string>
+      <string name="creatable.master.title">Мастер</string>
+
+      <!-- Экран мастеров -->
+      <string name="screen.master.all_action">Пригласить мастера</string>
+      <string name="screen.master.all_title">Все мастера</string>
+      <string name="screen.master.invite_link">Ссылка-приглашение</string>
+      <string name="screen.master.new_master">Новый мастер</string>
+      <string name="screen.masters.positions">Должности</string>
+
+      <!-- Виджет мастера -->
+      <string name="widget.master.action">Пригласить мастера</string>
+      <string name="widget.master.all_action_alt">Пригласить мастера</string>
+      <string name="widget.master.all_title_alt">Все мастера</string>
+      <string name="widget.master.link">Смотри всех</string>
+      <string name="widget.master.single_master">Твой мастер</string>
+      <string name="widget.master.title">Твои мастера</string>
+      <string name="widget.master.type_master">Мастер</string>
+
+      <!-- Лист мастеров -->
+      <string name="sheet.masters.title">Твои мастера</string>
+      <string name="sheet.masters.unknown">Неизвестно</string>
+
+      <!-- Экран выбора роли -->
+      <string name="screen.not_chosen.create_customer_button">Клиент</string>
+      <string name="screen.not_chosen.create_professional_button">Мастер</string>
+      <string name="screen.not_chosen.main_placeholder">Выбери, кто ты, чтобы закончить регистрацию</string>
+      <string name="screen.not_chosen.client_short">Клиент</string>
+      <string name="screen.not_chosen.pro_short">Мастер</string>
+      <string name="screen.not_chosen.who_you_are_prompt">Выбери, кто ты, чтобы закончить регистрацию</string>
+
+      <!-- Уведомления -->
+
+      <!-- Разрешения -->
+      <string name="widget.permissions.appointments">Доступ к записям</string>
+      <string name="widget.permissions.contact">Доступ к контактам</string>
+      <string name="widget.permissions.employee">Доступ к сотрудникам</string>
+      <string name="widget.permissions.finance">Доступ к финансам</string>
+      <string name="widget.permissions.notifications">Доступ к уведомлениям</string>
+      <string name="widget.permissions.owner">Босс</string>
+      <string name="widget.permissions.position">Доступ к ролям</string>
+      <string name="widget.permissions.procedure">Доступ к процедурам</string>
+      <string name="widget.permissions.salary">Доступ к зарплатам</string>
+      <string name="widget.permissions.salon">Доступ к салонам</string>
+      <string name="sheet.permissions.select_all">Выбрать всё</string>
+      <string name="sheet.permissions.title">Доступы</string>
+      <string name="widget.permissions.statistic">Доступ к статистике</string>
+      <string name="widget.permissions.timetable">Доступ к расписанию</string>
+      <string name="widget.permissions.is_empty">Нет необходимого доступа</string>
+      <string name="widget.permissions.title">Доступы</string>
+
+      <!-- Создание должности -->
+      <string name="creatable.position.add_permissions">Установи доступы для этой роли</string>
+      <string name="creatable.position.click_create">Нажми "Создать", чтобы сохранить</string>
+      <string name="creatable.position.enter_position_name">Пожалуйста, введи название должности</string>
+      <string name="creatable.position.permissions_is_empty">Доступы не добавлены</string>
+      <string name="creatable.position.placeholder">Пожалуйста, введи должность</string>
+      <string name="creatable.position.set_salary_is_empty">Условий оплаты пока нет</string>
+      <string name="creatable.position.setting_salary">Укажи зарплату для этой должности</string>
+      <string name="creatable.position.title">Должность</string>
+
+      <!-- Экран должности -->
+      <string name="screen.position.add_position">Добавить должность</string>
+      <string name="screen.position.title">Должности</string>
+      <string name="screen.position.drop_role">Убрать должность</string>
+      <string name="screen.position.nothing_found">Ничего не нашёл</string>
+
+      <!-- Опасная зона должности -->
+      <string name="widget.position_danger_zone.delete_hint">Обратного пути нет — уверен?</string>
+      <string name="widget.position_danger_zone.delete_title">Удалить должность</string>
+      <string name="widget.position_danger_zone.delete_title_alert">Действие не может быть отменено. Вы уверен, что хотите удалить?</string>
+      <string name="widget.position_danger_zone.delete_title_message">Подтверди удаление</string>
+
+      <!-- Лист должностей -->
+      <string name="sheet.positions.create_position">Добавить новую должность</string>
+
+      <!-- Виджет должностей -->
+      <string name="widget.positions.alert_title">Точно хочешь убрать эту должность?</string>
+      <string name="widget.positions.link">Показать все</string>
+      <string name="widget.positions.is_empty">Должности не найдены</string>
+      <string name="widget.positions.title">Должность</string>
+      <string name="widget.positions.button">Добавить должность</string>
+
+      <!-- Процедуры -->
+      <string name="widget.proc.all_action">Добавить процедуру</string>
+      <string name="widget.proc.all_title">Все процедуры</string>
+      <string name="widget.proc.link">Все</string>
+      <string name="widget.proc.title">Процедуры</string>
+      <string name="screen.proc.drop_procedure">Убрать процедуру</string>
+
+      <!-- Ячейка процедуры -->
+      <string name="widget.procedure_cell.info">Подробности</string>
+
+      <!-- Обновление процедуры -->
+      <string name="creatable.procedure_update.alias_step_placeholder">Новое название процедуры</string>
+      <string name="creatable.procedure_update.enter_new_alias">Пожалуйста, введи новое название процедуры</string>
+      <string name="creatable.procedure_update.title">Редактирование процедуры</string>
+
+      <!-- Создание процедуры -->
+      <string name="creatable.procedure.alias">Хочешь индивидуальное имя для услуги? Предлагай!</string>
+      <string name="creatable.procedure.click_create">Нажми "Создать", чтобы сохранить</string>
+      <string name="creatable.procedure.enter_procedure_description">Расскажи про процедуру. Например: "Возьми с собой полотенце, приходи за 10–15 минут, снимай украшения, предупреди о противопоказаниях"</string>
+      <string name="creatable.procedure.placeholder">Пожалуйста, введи название процедуры</string>
+      <string name="creatable.procedure.procedure_cost">Укажи цену процедуры</string>
+      <string name="creatable.procedure.procedure_duration">Укажи продолжительность процедуры</string>
+      <string name="creatable.procedure.select_category">Выбери категорию</string>
+      <string name="creatable.procedure.select_procedure">Введи название или выбери из списка</string>
+      <string name="creatable.procedure.select_procedure_info">Если выберешь из готового списка, это поможет клиентам найти тебя</string>
+      <string name="creatable.procedure.title">Процедура</string>
+
+      <!-- Экран процедуры -->
+      <string name="screen.procedure.alert_title">Точно хочешь удалить?</string>
+      <string name="screen.procedure.select">Выбрать</string>
+      <string name="screen.procedure.back_off">Отбой</string>
+
+      <!-- Создание профессионала -->
+      <string name="creatable.professional.click_continue">Нажми "Продолжить", чтобы стать мастером</string>
+      <string name="creatable.professional.continue_button">Далее</string>
+      <string name="creatable.professional.create_another_salon">Ты также можешь добавить ещё один салон?</string>
+      <string name="creatable.professional.create_first_salon">Ты можешь создать свой первый салон</string>
+      <string name="creatable.professional.invitation_link">"Есть ссылка-приглашение? Пожалуйста, введи ниже"</string>
+      <string name="creatable.professional.link_is_not_valid">"Ссылка не катит. Проверь ещё раз"</string>
+      <string name="creatable.professional.title">Регистрация мастером</string>
+
+      <!-- Экран профессионала -->
+      <string name="screen.professional.add_new_salon_button">Добавить новый салон</string>
+      <string name="screen.professional.drop_salon">Добавь новый салон</string>
+
+      <!-- Обновление профиля -->
+      <string name="creatable.profile_update.enter_name">Придумай новый никнейм</string>
+      <string name="creatable.profile_update.placeholder">Имя</string>
+      <string name="creatable.profile_update.title">Обновить свой профиль</string>
+      <string name="creatable.profile_update.upload_avatar">Загрузить новый аватар</string>
+
+      <!-- Профиль -->
+      <string name="widget.profile.app_icon_title">Выбери иконку приложения</string>
+      <string name="widget.profile.danger_delete_hint">Обратного пути нет — уверен?</string>
+      <string name="widget.profile.danger_delete_title">Удалить свой профиль</string>
+      <string name="widget.profile.danger_logout_action">Выйти</string>
+      <string name="widget.profile.danger_logout_title">Выйти из профиля</string>
+      <string name="screen.profile.title">Профиль</string>
+
+      <!-- Подписка -->
+      <string name="widget.profile_subscription.activate">Активировать подписку</string>
+      <string name="widget.profile_subscription.cancel">Отменить подписку</string>
+      <string name="widget.profile_subscription.subtitle">Подписка действует до %s</string>
+      <string name="widget.profile_subscription.title">Подписка</string>
+
+      <!-- Публичный экран -->
+      <string name="screen.public.login">Войти</string>
+      <string name="screen.public.nothing_found">Ничего не нашёл</string>
+
+      <!-- Зарплата -->
+      <string name="widget.salary.daily_wage">Ежедневный оклад</string>
+      <string name="widget.salary.hourly_wage">Почасовая оплата</string>
+      <string name="widget.salary.individual_rate">Индивидуальная ставка за выполненную работу</string>
+      <string name="widget.salary.monthly_wage">Ежемесячный оклад</string>
+      <string name="widget.salary.not_added">Условий пока нет</string>
+      <string name="widget.salary.profit_percentage">Процент от прибыли</string>
+      <string name="sheet.salary.alert_title">Пожалуйста, введи новое значение</string>
+      <string name="sheet.salary.ok">Понял!</string>
+      <string name="sheet.salary.percentage_of_profit">Процент от прибыли</string>
+      <string name="sheet.salary.percent_widget_title">Процент</string>
+      <string name="sheet.salary.piecework_widget_title">Оплата за выполненую работу</string>
+      <string name="sheet.salary.salary_widget_action">Добавить условие</string>
+      <string name="sheet.salary.select_type">Выбери тип</string>
+      <string name="sheet.salary.title">Настройка зарплаты</string>
+      <string name="sheet.salary.wage_widget_title">Фиксированная оплата</string>
+      <string name="widget.salary.title">Условия оплаты труда</string>
+      <string name="widget.salary.button">Добавить новое условие</string>
+
+      <!-- Опасная зона салона -->
+      <string name="widget.salon_danger_zone.activate">Активировать</string>
+      <string name="widget.salon_danger_zone.activate_hint">Восстановить работу салона</string>
+      <string name="widget.salon_danger_zone.activate_title">Активировать салон</string>
+      <string name="widget.salon_danger_zone.deactivate">Деактивировать</string>
+      <string name="widget.salon_danger_zone.deactivate_hint">Останавливает работу салона и убирает его из поиска</string>
+      <string name="widget.salon_danger_zone.deactivate_message_alert">Точно хочешь деактивировать салон?</string>
+      <string name="widget.salon_danger_zone.deactivate_title">Поставить салон на паузу</string>
+      <string name="widget.salon_danger_zone.delete_hint">Обратного пути нет — готов?</string>
+      <string name="widget.salon_danger_zone.delete_message_alert">Введи название салона, чтобы удалить</string>
+      <string name="widget.salon_danger_zone.delete_title">Удалить салон</string>
+      <string name="widget.salon_danger_zone.delete_title_alert">Без возврата. Уверен?</string>
+      <string name="widget.salon_danger_zone.error_alert_message">Попробуй ещё раз!</string>
+      <string name="widget.salon_danger_zone.error_alert_title">Название салона не совпадает</string>
+
+      <!-- Экран QR-кода салона -->
+      <string name="screen.salon_qr.send_qr_button">Отправить QR-код</string>
+      <string name="screen.salon_qr.share_with_link_button">Поделиться ссылкой</string>
+
+      <!-- Обновление салона -->
+      <string name="creatable.salon_update.enter_name">Придумай новое имя для салона</string>
+      <string name="creatable.salon_update.placeholder">Название салона</string>
+      <string name="creatable.salon_update.salon_type">Выбери тип салона</string>
+      <string name="creatable.salon_update.title">Обновить салон</string>
+      <string name="creatable.salon_update.upload_logo">Загрузить новый логотип</string>
+
+      <!-- Создание салона -->
+      <string name="creatable.salon.add_address">Класс! Теперь введи адрес салона, чтобы клиенты нашли тебя</string>
+      <string name="creatable.salon.allow_button">Разрешить</string>
+      <string name="creatable.salon.chain_type">Сеть салонов</string>
+      <string name="creatable.salon.click_create">Нажми "Создать", чтобы сохранить</string>
+      <string name="creatable.salon.congratulations">Ура! Твой салон создан!</string>
+      <string name="creatable.salon.create_schedule">Шаг за шагом! Настрой часы работы салона, чтобы клиенты знали, когда заглянуть</string>
+      <string name="creatable.salon.description_placeholder">Описание</string>
+      <string name="creatable.salon.enter_name">Пожалуйста, введи название своего салона</string>
+      <string name="creatable.salon.enter_salon_description">Расскажи про свой салон</string>
+      <string name="creatable.salon.individual_type">Салон красоты</string>
+      <string name="creatable.salon.later_logo">Логотип можно добавить позже в настройках</string>
+      <string name="creatable.salon.master_type">Индивидуальный мастер</string>
+      <string name="creatable.salon.notice_request">Разреши уведомления, чтобы получать сообщения от клиентов</string>
+      <string name="creatable.salon.placeholder">Название салона</string>
+      <string name="creatable.salon.salon_type">Выбери тип салона</string>
+      <string name="creatable.salon.title">Создание салона</string>
+      <string name="creatable.salon.turn_on_notifications">Уведомления отключены в [настройках](%s) — пожалуйста, включи их там</string>
+      <string name="creatable.salon.upload_logo">Отлично! Загружай логотип своего салона, чтобы он выделялся</string>
+
+      <!-- Экран салона -->
+      <string name="screen.salon.action">Создать запись</string>
+      <string name="screen.salon.chain">Сеть</string>
+      <string name="screen.salon.help_message">Начни с настройки салона</string>
+      <string name="screen.salon.help_submessage">Чтобы создать встречу, необходимо сначала создать услугу</string>
+      <string name="screen.salon.individual">Частное лицо</string>
+      <string name="screen.salon.master">Владелец</string>
+      <string name="screen.salon.setup_start">Начни с настройки салона</string>
+      <string name="screen.salon.service_to_book">Сначала создай услугу, чтобы записать</string>
+      <string name="screen.salon.chain_lowercase">сеть</string>
+      <string name="screen.salon.solo_lowercase">индивидуальный</string>
+      <string name="screen.salon.boss_lowercase">мастер</string>
+
+      <!-- Расписание -->
+      <string name="widget.schedule.empty_description">Пока к тебе никто не записался</string>
+      <string name="widget.schedule.empty_title">Твои записи будут тут</string>
+
+      <!-- Создание расписания -->
+      <string name="creatable.schedule.click_complete">Нажми "Завершить", чтобы создать расписание</string>
+      <string name="creatable.schedule.custom_schedule">Сменный график</string>
+      <string name="creatable.schedule.day_schedule">Ежедневный график</string>
+      <string name="creatable.schedule.schedule_type">Выбери тип расписания</string>
+      <string name="creatable.schedule.select_day">Выбери день для настройки графика</string>
+      <string name="creatable.schedule.select_day_sub_message">Можно взять несколько дней, если они совпадают</string>
+      <string name="creatable.schedule.shift_schedule_select">Укажи количество рабочих и выходных дней</string>
+      <string name="creatable.schedule.title">Создание расписание</string>
+      <string name="creatable.schedule.week_schedule">Шаблон на неделю</string>
+
+      <!-- Экран расписания -->
+      <string name="screen.schedule.action">Записать клиента</string>
+      <string name="screen.schedule.empty_description">На этот день записей нет</string>
+      <string name="screen.schedule.empty_title">Твои записи будут здесь</string>
+      <string name="screen.schedule.expired">Время истекло</string>
+      <string name="screen.schedule.empty_title_alt">Твои записи будут тут</string>
+
+      <!-- Экран уведомлений -->
+      <string name="screen.notice.book">Создать запись</string>
+      <string name="screen.notice.error_placeholder">Уведомлений пока нет</string>
+      <string name="screen.notice.read_all">Прочитать всё</string>
+      <string name="screen.notice.title_alt">Уведомления</string>
+
+      <!-- Экран поиска -->
+      <string name="screen.search.placeholder">Найти</string>
+      <string name="screen.search.nothing_found">Ничего не нашёл</string>
+
+      <!-- Экран выбора услуги -->
+      <string name="screen.select_of_service.add_new_service">Добавить новую услугу</string>
+      <string name="screen.select_of_service.apply">Применить</string>
+      <string name="screen.select_of_service.procedures_header">Услуги</string>
+
+      <!-- Создание услуги -->
+      <string name="creatable.service.description_placeholder">Описание</string>
+      <string name="creatable.service.enter_service_description">Расскажи про услугу</string>
+      <string name="creatable.service.enter_service_name">Назови свою услугу</string>
+      <string name="creatable.service.placeholder">Название услуги</string>
+      <string name="creatable.service.summary_placeholder">Описание</string>
+      <string name="creatable.service.title">Создание услуги</string>
+
+      <!-- Экран услуги -->
+      <string name="screen.service.from">От</string>
+      <string name="screen.service.title">Все услуги</string>
+
+      <!-- Виджет услуг -->
+      <string name="widget.services.action">Добавить новую услугу</string>
+      <string name="widget.services.link">Все</string>
+      <string name="widget.services.title">Услуги</string>
+
+      <!-- Боковое меню -->
+      <string name="screen.side_menu.create_salon">Создай свой первый салон</string>
+      <string name="screen.side_menu.dashboard">Панель управления</string>
+      <string name="screen.side_menu.quick_actions">Быстрые действия</string>
+      <string name="screen.side_menu.read_all">Прочитать всё</string>
+      <string name="screen.side_menu.schedule">Рабочий график</string>
+      <string name="screen.side_menu.select_salon">Выбери из меню</string>
+      <string name="screen.side_menu.share">Поделиться</string>
+      <string name="screen.side_menu.to_client_mode">на клиентский режим</string>
+      <string name="screen.side_menu.toggle">Переключить</string>
+      <string name="screen.side_menu.workspace">Рабочее пространство</string>
+
+      <!-- Виджет расписания (альтернатива) -->
+      <string name="widget.schedule_alt.action">Записать клиента</string>
+      <string name="widget.schedule_alt.declined_by_customer">Клиент отказался</string>
+      <string name="widget.schedule_alt.declined_by_master">Мастер отказался</string>
+      <string name="widget.schedule_alt.need_your_action">Требуется ваше действие!</string>
+      <string name="widget.schedule_alt.period">Сегодня:</string>
+      <string name="widget.schedule_alt.status_message_alert">Необходимо активировать салон, чтобы записать</string>
+      <string name="widget.schedule_alt.status_title_alert">Не удалось создать запись</string>
+      <string name="widget.schedule_alt.title">Записи</string>
+
+
+      <!-- Виджет поддержки -->
+      <string name="widget.support.action">Чат с поддержкой</string>
+      <string name="widget.support.message">Мы тут, чтобы помочь! Вопросы или проблемы — пиши нам!</string>
+      <string name="widget.support.title">Есть вопросы? Мы рядом!</string>
+      <string name="widget.support.unknown">Без понятия</string>
+      <string name="widget.support.user_message">Здравствуйте, мне нужна помощь! Мой ID: %s</string>
+
+      <!-- Создание временного слота -->
+      <string name="creatable.time_slot.time_zone_difference">Часовой пояс отличается от вашего</string>
+
+      <!-- Лист обновления записи -->
+      <string name="sheet.timeline_appointment_update.appointment_transfer">Перенести запись?</string>
+      <string name="sheet.timeline_appointment_update.confirm">Подтвердить</string>
+      <string name="sheet.timeline_appointment_update.new_appointment_time">Новое время записи:</string>
+
+      <!-- Множественное число для мастеров -->
+      <plurals name="screen.timeline_appointments.masters">
+        <item quantity="one">%d мастер</item>
+        <item quantity="few">%d мастера</item>
+        <item quantity="many">%d мастеров</item>
+        <item quantity="other">%d мастера</item>
+      </plurals>
+
+      <!-- Экран временной линии записей -->
+      <string name="screen.timeline_appointments.masters_quantity">Количество мастеров</string>
+      <string name="screen.timeline_appointments.minutes">%d минута</string>
+      <string name="screen.timeline_appointments.schedule_multiplicity">Кратность журнала</string>
+      <string name="screen.timeline_appointments.switch_button">Список</string>
+
+      <!-- Расписание рабочего времени -->
+      <string name="widget.timetable.add_break">Добавить перерыв</string>
+      <string name="widget.timetable.add_action">Добавить</string>
+      <string name="widget.timetable.add_from">С</string>
+      <string name="widget.timetable.add_link">Выходные</string>
+      <string name="widget.timetable.add_title">Добавить выходной</string>
+      <string name="widget.timetable.add_to">До</string>
+      <string name="widget.timetable.edit_action">Применить</string>
+      <string name="widget.timetable.edit_break">Добавить перерыв</string>
+      <string name="widget.timetable.edit_dayoff">Выходной день</string>
+      <string name="widget.timetable.edit_freeday">Свободный день</string>
+      <string name="widget.timetable.edit_title">Время работы</string>
+      <string name="widget.timetable.edit_workday">Рабочий день</string>
+      <string name="widget.timetable.save_break">Сохранить перерыв</string>
+      <string name="widget.timetable.weekends_title">Выходные</string>
+      <string name="widget.timetable.action">Добавить выходной</string>
+      <string name="widget.timetable.break">Перерыв: %s</string>
+      <string name="widget.timetable.dayoff">Выходной</string>
+      <string name="widget.timetable.title">Твоё рабочее время</string>
+
+      <!-- Компонент недели -->
+      <string name="widget.week_component.day_off">Выходной</string>
+      <string name="widget.week_component.friday">Пятница</string>
+      <string name="widget.week_component.monday">Понедельник</string>
+      <string name="widget.week_component.saturday">Суббота</string>
+      <string name="widget.week_component.sunday">Воскресенье</string>
+      <string name="widget.week_component.thursday">Четверг</string>
+      <string name="widget.week_component.tuesday">Вторник</string>
+      <string name="widget.week_component.wednesday">Среда</string>
+
+      <!-- Создание недельного расписания -->
+      <string name="creatable.weekly_schedule.title">Создание расписания</string>
+
+      <!-- Экран недельного расписания -->
+      <string name="screen.week_schedule.action">Применить</string>
+      <string name="screen.week_schedule.add_break">Добавить перерыв</string>
+      <string name="screen.week_schedule.break_button">Перерыв</string>
+      <string name="screen.week_schedule.day_off">Выходной</string>
+      <string name="screen.week_schedule.from">ВРЕМЯ НАЧАЛА</string>
+  </resources>
