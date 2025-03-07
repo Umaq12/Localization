@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="screen.address_edit.address_slightly_off">
-    <item>The address is slightly off</item>
-    <item>Address is slightly off</item>
-  </string-array>
-  <string-array name="screen.address_edit.find_sharp_spot">
-    <item>Let’s find the perfect spot for you</item>
-    <item>Let’s find the exact spot for you</item>
-  </string-array>
-  <string-array name="screen.address_edit.retry_address_grab">
-    <item>Can’t catch your address — one more try?</item>
-    <item>Can’t grab your address — one more time?</item>
-  </string-array>
-  <string-array name="widget.feedback_banners.accent">
-    <item>Drop</item>
-    <item comment="widget.feedback_banners.accent&#10;Feedback Banners (added for sync)">Drop</item>
-  </string-array>
-  <string-array name="widget.feedback_banners.subtitle">
-    <item>Drop us your feedback\nor ideas</item>
-    <item>Drop us a review\nor your ideas</item>
-  </string-array>
-  <string-array name="widget.feedback_banners.title">
-    <item>Make us better!</item>
-    <item>Make us better!</item>
-  </string-array>
-  <string-array name="screen.week_schedule.break_button">
-    <item>Break</item>
-    <item>Break</item>
-  </string-array>
+  <string name="screen.address_edit.address_slightly_off">Address is slightly off</string>
+  <string name="screen.address_edit.find_sharp_spot">Let’s find the exact spot for you</string>
+  <string name="screen.address_edit.retry_address_grab">Can’t grab your address — one more time?</string>
+  <string name="widget.feedback_banners.accent">Drop</string>
+  <string name="widget.feedback_banners.subtitle">Drop us a review\nor your ideas</string>
+  <string name="widget.feedback_banners.title">Make us better!</string>
+  <string name="screen.week_schedule.break_button">Break</string>
   <string name="screen.address_edit.current_address" comment="screen.address_edit.current_address Address Editing">Your current location</string>
   <string name="screen.address_edit.invalid_address">Your address is slightly off</string>
   <string name="screen.address_edit.invalid_address_message">Choose a precise spot to continue</string>
