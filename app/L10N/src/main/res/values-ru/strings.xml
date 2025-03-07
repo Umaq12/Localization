@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string-array name="screen.address_edit.address_slightly_off">
+    <item>Адрес немного сбился</item>
+    <item>Адрес немного сбился</item>
+  </string-array>
+  <string-array name="screen.address_edit.find_sharp_spot">
+    <item>Давай найдём точное местечко для тебя</item>
+    <item>Давай найдём точное местечко для тебя</item>
+  </string-array>
+  <string-array name="screen.address_edit.retry_address_grab">
+    <item>Не могу поймать твой адрес — ещё разок?</item>
+    <item>Не могу поймать твой адрес — ещё разок?</item>
+  </string-array>
+  <string-array name="widget.feedback_banners.accent">
+    <item>Кидай</item>
+    <item>Кидай</item>
+  </string-array>
+  <string-array name="widget.feedback_banners.subtitle">
+    <item>Кидай нам отзыв\nили свои идеи</item>
+    <item>Кидай нам отзыв\nили свои идеи</item>
+  </string-array>
+  <string-array name="widget.feedback_banners.title">
+    <item>Сделай нас лучше!</item>
+    <item>Сделай нас лучше!</item>
+  </string-array>
+  <string-array name="screen.week_schedule.break_button">
+    <item>Перерыв</item>
+    <item>Перерыв</item>
+  </string-array>
   <string name="delete" comment="delete Reusable ключи для повторяющихся значений">Удалить</string>
   <string name="cancel">Отмена</string>
   <string name="save">Сохранить</string>
@@ -120,9 +148,6 @@
   <string name="screen.address_edit.invalid_address_message">Выбери точное местечко, чтобы продолжить</string>
   <string name="screen.address_edit.ok">Круто!</string>
   <string name="screen.address_edit.unable_address">Не могу поймать твой адрес — попробуй ещё разок?</string>
-  <string name="screen.address_edit.address_slightly_off">Адрес немного сбился</string>
-  <string name="screen.address_edit.find_sharp_spot">Давай найдём точное местечко для тебя</string>
-  <string name="screen.address_edit.retry_address_grab">Не могу поймать твой адрес — ещё разок?</string>
   <string name="widget.address.action" comment="widget.address.action Виджет адреса">Кидай свой адрес</string>
   <string name="widget.address.direction">Проложим путь</string>
   <string name="widget.address.navigate">Погнали!</string>
@@ -189,9 +214,6 @@
   <string name="widget.banners_feedback.accent" comment="widget.banners_feedback.accent Баннеры обратной связи">Отмена</string>
   <string name="widget.banners_feedback.subtitle">Оставь отзыв или свои мысли</string>
   <string name="widget.banners_feedback.title">Сделай нас лучше!</string>
-  <string name="widget.feedback_banners.accent">Кидай</string>
-  <string name="widget.feedback_banners.subtitle">Кидай нам отзыв\nили свои идеи</string>
-  <string name="widget.feedback_banners.title">Сделай нас лучше!</string>
   <string name="widget.banners_subscription.subtitle" comment="widget.banners_subscription.subtitle Баннеры подписки">Подключай подписку</string>
   <string name="widget.banners_subscription.title">%1$s\nвсего за %2$s 💫</string>
   <string name="sheet.calendar.today" comment="sheet.calendar.today Лист календаря">Сегодняшний день</string>
@@ -687,7 +709,6 @@
   <string name="creatable.weekly_schedule.title" comment="creatable.weekly_schedule.title Создание недельного расписания">Создание расписания</string>
   <string name="screen.week_schedule.action" comment="screen.week_schedule.action Экран недельного расписания">Применить</string>
   <string name="screen.week_schedule.add_break">Добавить перерыв</string>
-  <string name="screen.week_schedule.break_button">Перерыв</string>
   <string name="screen.week_schedule.day_off">Выходной</string>
   <string name="screen.week_schedule.from">ВРЕМЯ НАЧАЛА</string>
 </resources>
