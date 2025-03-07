@@ -1,2 +1,11 @@
 bundles:
   - 6
+files:
+  - source: 'Android/Android_ENG.xml'
+    translation: /app/L10N/src/main/res/values-en/strings.xml
+    type: xml
+    update_option: update_without_changes
+  - source: 'Android/Android_RU.xml'
+    translation: /app/L10N/src/main/res/values-ru/strings.xml
+    type: xml
+    update_option: update_without_changes
