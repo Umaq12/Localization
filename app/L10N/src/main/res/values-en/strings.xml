@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="screen.address_edit.address_slightly_off">Address is slightly off</string>
+  <string name="screen.address_edit.find_sharp_spot">Let’s find the exact spot for you</string>
+  <string name="screen.address_edit.retry_address_grab">Can’t grab your address — one more time?</string>
+  <string name="widget.feedback_banners.accent">Drop</string>
+  <string name="widget.feedback_banners.subtitle">Drop us a review\nor your ideas</string>
+  <string name="widget.feedback_banners.title">Make us better!</string>
+  <string name="screen.week_schedule.break_button">Break</string>
   <string name="screen.address_edit.current_address" comment="screen.address_edit.current_address Address Editing">Your current location</string>
   <string name="screen.address_edit.invalid_address">Your address is slightly off</string>
   <string name="screen.address_edit.invalid_address_message">Choose a precise spot to continue</string>
   <string name="screen.address_edit.ok">Cool!</string>
   <string name="screen.address_edit.unable_address">Can’t grab your address — try again?</string>
-  <string name="screen.address_edit.address_slightly_off">Address is slightly off</string>
-  <string name="screen.address_edit.find_sharp_spot">Let’s find the exact spot for you</string>
-  <string name="screen.address_edit.retry_address_grab">Can’t grab your address — one more time?</string>
   <string name="widget.address.action" comment="widget.address.action Address Widget">Drop your address</string>
   <string name="widget.address.direction">We’ll map the route</string>
   <string name="widget.address.navigate">Let’s go!</string>
@@ -550,7 +554,6 @@
   <string name="creatable.weekly_schedule.title" comment="creatable.weekly_schedule.title Weekly Schedule Creation">Create schedule</string>
   <string name="screen.week_schedule.action" comment="screen.week_schedule.action Weekly Schedule Screen">Apply</string>
   <string name="screen.week_schedule.add_break">Add break</string>
-  <string name="screen.week_schedule.break_button">Break</string>
   <string name="screen.week_schedule.day_off">Day off</string>
   <string name="screen.week_schedule.from">START TIME</string>
   <string name="screen.week_schedule.save_break">Save break</string>
@@ -576,9 +579,6 @@
   <string name="screen.salon.boss_lowercase">master</string>
   <string name="screen.schedule.empty_title_alt" comment="screen.schedule.empty_title_alt Schedule Screen">Your appointments will be here</string>
   <string name="screen.search.nothing_found" comment="screen.search.nothing_found Search Screen">Nothing found</string>
-  <string name="widget.feedback_banners.accent" comment="widget.feedback_banners.accent Feedback Banners (added for sync)">Drop</string>
-  <string name="widget.feedback_banners.subtitle">Drop us a review\nor your ideas</string>
-  <string name="widget.feedback_banners.title">Make us better!</string>
   <string name="auth.invalid_access_token" comment="auth.invalid_access_token Authentication">Invalid access token</string>
   <string name="auth.missing_apple_token">Apple token is missing</string>
   <string name="auth.empty_fcm_token">FCM token is empty</string>
