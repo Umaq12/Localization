@@ -325,11 +325,11 @@
     <item quantity="one">Edit %1$d day</item>
     <item quantity="other">Edit %1$d days</item>
   </plurals>
-  <string name="screen.profesional.settings">Settings</string>
+  <string name="screen.profesional.settings">Log in</string>
   <string name="screen.profesional.workspace">Workspace</string>
   <string name="screen.profesional.schedule">Schedule</string>
   <string name="screen.profesional.dashboard">Dashboard</string>
-  <string name="screen.profesional.start_work">Start working with maestri\n. Create your first salon.</string>
+  <string name="screen.profesional.start_work">Start working with maetry\n. Create your first salon.</string>
   <string name="screen.map.enbl_geo">Enable geolocation in the settings</string>
   <string name="widget.master.add_master">Add master</string>
   <string name="screen.schedule.professional.day_off">Vacation setup</string>
